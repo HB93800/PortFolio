@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.container1{
+   /* display: flex;*/
+    width: 70.1vw;
+    height: 71vh;
+    background: #BEB7B1;
+}
+aside{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 2px red;
+    background: rgb(36, 23, 3);
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.conAside{
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.conAside img{
+    margin-left: 5%;
+    width: 90%;
+    height: 80%;
+}
+.TexteLiens{
+    background: #D66262;
+    border: 1px solid;
+    margin-top: 1.5%;
+    Margin-bottom: 1.5%;
+    align-items: center;
+    /*width: 100px;*/
+    height: 18;
+    text-align: center;
+}
+.TitreH{
+    display: block;
+    width: 77%;
+    height: 12vh;
+    background-image: url("../PICS/DEV-2.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 5%;
+    
+}
+.TitreTexte{
+    padding-top: 0%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    
+}
+.TitreTexte{
+    color: #8D4E4E;
+ 
+    height: 1vh;
+
+}
+.TitreTexte2, .TitreTexte3{
+    color: #9BAC2F;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.Mediane{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 31.5vw;
+    padding-top: 5%;
+    padding-left: 5%;
+    justify-content: space-between;
+    position:relative;
+    
+}
+.TexteMed{
+    width: 46%;
+    display:flexbox;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.afpaPic{
+    position:absolute;
+    top: 59%;
+    right: 0px;
+
+
+}   
+.texteMed1{
+    font-size: 90%;
+}
+.afpaPic img{
+    width: 77%;
+}   
+/*.clearfix{
+    clear: both;*/
