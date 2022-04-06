@@ -3,37 +3,29 @@
     width: 50%;
     margin: 0 auto;
 
+
 }
-.container1{
-   /* display: flex;*/
+.container1{ /*Aside container*/
     width: 70.1vw;
-    height: 71vh;
-    background: #BEB7B1;
+    height: 130vh;
+    background: #D1C8C8;
 }
 aside{
     display: flex;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: solid 2px red;
-    background: rgb(36, 23, 3);
+    background: rgb(148, 140, 128);
     width: 30%;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
-.conAside{
-    justify-content: space-between;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.conAside img{
+.conAside img{ /*les images de ma div dans la balise Aside*/
     margin-left: 5%;
     width: 90%;
     height: 80%;
 }
-.TexteLiens{
+.TexteLiens{ /*class de mes liens dans Aside*/
     background: #D66262;
     border: 1px solid;
     margin-top: 1.5%;
@@ -52,7 +44,7 @@ aside{
     background-size: cover;
     text-align: center;
     font-size: 15px;
-    margin-left: 5%;
+    margin-left: 10%;
     
 }
 .TitreTexte{
@@ -73,33 +65,100 @@ aside{
     margin-top: 0;
 }
 .Mediane{
-    display: flex;
+    display: Flex;
     flex-wrap: nowrap;
-    width: 31.5vw;
+    width: 77%;
     padding-top: 5%;
-    padding-left: 5%;
+    padding-left: 10%;
     justify-content: space-between;
     position:relative;
     
 }
-.TexteMed{
-    width: 46%;
-    display:flexbox;
+.Mediane2-3{
+    display: Flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-}
-.afpaPic{
-    position:absolute;
-    top: 59%;
-    right: 0px;
-
-
-}   
-.texteMed1{
-    font-size: 90%;
-}
-.afpaPic img{
     width: 77%;
-}   
+    padding-top: 2%;
+    padding-left: 10%;
+    justify-content: space-between;
+    position:relative;
+    padding-bottom: 2%;
+}
+.Mediane4{
+    display: Flex;
+    flex-wrap: nowrap;
+    width: 77%;
+    padding-top: 2%;
+    padding-left: 10%;
+    justify-content: space-between;
+    position:relative;
+    padding-bottom: 2%;
+}
+
+.TexteMed{
+    position: relative;
+    width: 45%;
+    display: flex;
+    background: #BEB7B1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0%;
+    height: 26vh;
+
+}
+.TexteMed2-3_1{
+    position: relative;
+    width: 45%;
+    display: flex;
+    background: #BEB7B1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0%;
+    height: 4vh;
+}
+.TexteMed2-1{ /*style de ma div où j'ai ma pic*/
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    /* padding-right: 1%;*/
+    width: 100%;
+
+}
+.TexteMed2-1 img{ /* definition de mon image*/
+    width: 80%;
+    height: 80%;
+
+}  
+ 
+.texteMed1{
+    font-size: 1em;
+}
+.ZonePic4{
+    position: relative;
+    width: 45%;
+    display: flex;
+    background: #BEB7B1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+    height: 60vh;
+
+}
+.SkillsPic1{
+width: 12vw;
+height: 25vh;
+object-fit: cover;
+}
+.SkillsPic21{
+    width: 10vw;
+    height: 15vh;
+    object-fit: cover;
+    
+}
+#Office365pic{
+    width: 10vw;
+    height: 13vh;
+}
 /*.clearfix{
     clear: both;*/
