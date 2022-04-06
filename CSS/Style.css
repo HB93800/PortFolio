@@ -164,6 +164,13 @@ object-fit: cover;
     height: 13vh;
 }
 /*-------------Page html-Infos & Comp-------------*/
+.container1_IC{ /*Aside container*/
+    width: 70.1vw;
+    height: 150vh;
+    background: #D1C8C8;
+}
+
+
 .TitreH_IetC{
     display: block;
     width: 90%;
@@ -220,7 +227,7 @@ object-fit: cover;
     display: Flex;
     flex-wrap: wrap;
     width: 177%;
-    padding-top: 2%;
+    padding-top: 0%;
     padding-left: 5%;
     position:relative;
   
@@ -239,6 +246,42 @@ object-fit: cover;
 }
 .TexteMed2{
     width: 90%;
-    background: red;
    
+}
+#Mycolor{
+    background: #222279;
+}
+/*-------------Page Contatc-----------*/
+.container1_Cont{ /*Aside container*/
+    width: 70.1vw;
+    height: 70vh;
+    background: #D1C8C8;
+}
+.TexteMed-Cont{
+    position: relative;
+    width: 5%;
+    display: flex;
+    background: #BEB7B1;
+    margin: 0%;
+    height: 26vh;
+    padding-left: 1%;
+
+}
+.TexteMed-Cont img{
+    Width:15vw;
+    height: 30vh;
+    image-rendering: optimizeQuality;
+    object-fit:scale-down;
+    
+}
+.TexteMed-Cont{
+    position: relative;
+    width: 26%;
+    display: flex;
+    background: #BEB7B1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0%;
+    height: 31vh;
+
 }
