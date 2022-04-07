@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    width: 50%;
+    width: 90% !important;
     margin: 0 auto;
 
 
@@ -251,37 +251,431 @@ object-fit: cover;
 #Mycolor{
     background: #222279;
 }
-/*-------------Page Contatc-----------*/
+/*-------------Page Contatc--------------------------------*/
 .container1_Cont{ /*Aside container*/
     width: 70.1vw;
     height: 70vh;
     background: #D1C8C8;
 }
-.TexteMed-Cont{
-    position: relative;
-    width: 5%;
-    display: flex;
-    background: #BEB7B1;
-    margin: 0%;
-    height: 26vh;
-    padding-left: 1%;
-
-}
 .TexteMed-Cont img{
-    Width:15vw;
-    height: 30vh;
+    Width: 15vw;
+    height: 15vh;
     image-rendering: optimizeQuality;
     object-fit:scale-down;
     
 }
 .TexteMed-Cont{
     position: relative;
-    width: 26%;
+    width: 21.7vw;
     display: flex;
+    flex-wrap: nowrap;
     background: #BEB7B1;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0%;
-    height: 31vh;
+    height: 45vh;
+    padding-top: 2%;
 
+}
+.TexteMed-Cont1{
+    position: relative;
+    width: 21.7vw;
+    display: flex;
+    flex-wrap: nowrap;
+    background: #BEB7B1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0%;
+    height: 45vh;
+    padding-top: 2%;
+
+}
+.ElementsCont{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 8vh;
+    width: 12vw;
+}
+.ElementsCont img{
+    width: 12%;
+    height: 34%;
+    padding-right: 1.5%;
+    object-fit:fill;
+}
+.email{
+    text-decoration: none;
+    font-weight: bold;
+    height: 2vh;   
+    padding-bottom: 1px;
+}
+.links{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 12vw;
+    height: 20%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    align-items: center;
+    justify-content: space-between;
+}
+.links img{
+    Width: 3vw;
+    height: 5vh;
+    image-rendering: optimizeQuality;
+    object-fit:scale-down;
+}
+.centrage{
+    display: flex;
+    /*justify-content: center;*/
+    padding-bottom: 15%;
+}
+/*-----Pour smartphone---------------------------------------*/
+@media screen and (max-device-width:400px){
+    .container, .MedianeIetC{
+        /*background: black;*/
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .titulaireFol2{
+        display: block;
+        width: 100%;
+        font-size: 1em;
+    }
+    .container1_Cont{
+        display: block;
+    
+        width: 100%;
+        /*margin: 2 2 2 2;*/
+        height: fit-content;
+        
+    }
+    .TitreTexte{
+        font-size: 1em;
+        text-decoration: none;
+    }
+    .TitreTexte2, .TitreTexte3{
+        font-size: 0.75em;
+        padding-bottom: 0.5%;
+    }
+    .TitreH_IetC{
+        height:8vh;
+        text-align: center;
+        justify-self: center;
+        background-size:cover;
+        width: 98%;
+        margin: 0 auto;
+    }
+    .TexteMed-Cont, .TexteMed-Cont1{
+        width:100%;
+        display: flex;
+        flex-wrap: nowrap;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+    }
+
+    .TexteMed-Cont img{
+        Width: 90vw;
+        /*height: 15vh;*/
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+
+    }
+    .texteMed1{
+        font-size: 0.8rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    b{
+        padding-left: 10%;
+    }
+    .ElementsCont img{
+        width: 10vw;
+        height: 4vh;
+        padding-left: 5%;
+    }
+    .ElementsCont{
+        display: flex;
+        flex-wrap: wrap;
+        height: 5vh;
+        width: 95vw;
+        padding-bottom: 1%;
+        margin: 8% auto;
+        justify-content:center;
+        padding-bottom: 0;
+    }
+    address{
+        width: 85vw;
+        padding-left: 10%;
+        padding-bottom: 0;
+    }   
+    .links{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #centrage{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        margin: 0 auto;
+    }
+    
+}
+
+/*-----Pour tablette portrait et paysage-------------------*/
+@media screen and (min-device-width:401px) and (max-device-width:570px){
+    .container, .MedianeIetC{
+        /*background: black;*/
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100vw;
+    }
+    .titulaireFol2{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 15vw;
+        font-size: 1em;
+        margin: 0 auto;
+        width: 100vw;
+    }
+    .conAside{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+    }
+    .container1_Cont{
+        display: block;    
+        width: 100vw;
+        /*margin: 2 2 2 2;*/
+        height: fit-content;
+        
+    }
+    .TitreTexte{
+        font-size: 1em;
+        text-decoration: none;
+        text-align: center;
+        padding: 0;
+    }
+    .TitreTexte2, .TitreTexte3{
+        font-size: 0.75em;
+        padding-bottom: 0.5%;
+    }
+    .TitreH_IetC{
+        height:12vh;
+        background-size:cover;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .TexteMed-Cont{
+        width:100%;
+        display: flex;
+        flex-wrap: nowrap;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+    }
+    .TexteMed-Cont1{
+        width:100%;
+        display: flex;
+        flex-wrap: nowrap;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+    }
+    .TexteMed-Cont img{
+        Width: 90vw;
+        /*height: 15vh;*/
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+
+    }
+    .texteMed1{
+        font-size: 0.8rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    b{
+        padding-left: 10%;
+    }
+    .ElementsCont img{
+        width: 10vw;
+        height: 4vh;
+        padding-left: 5%;
+    }
+    .ElementsCont{
+        display: flex;
+        flex-wrap: wrap;
+        height: 8vh;
+        width: 90vw;
+        padding-bottom: 1%;
+        margin: 8% auto;
+        justify-content:start;
+    }
+    address{
+        width: 85vw;
+        padding-left: 10%;
+    }   
+    .links{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    #centrage{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (min-device-width:571px) and (max-device-width:900px){
+    .container, .MedianeIetC{
+        background: black;
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100vw !important;
+    }
+    .titulaireFol2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10vw;
+        font-size: 1em;
+        margin: 0 auto;
+        width: 30vw;
+        height: 100vh;
+    }
+    .conAside{
+        display: block;
+        align-items: center;
+        justify-content: space-between;    
+    }
+    .container1_Cont{
+        display: block;    
+        width: 100vw;
+        /*margin: 2 2 2 2;*/
+        height: fit-content;
+        
+    }
+    .TitreTexte{
+        font-size: 0.5em;
+        text-decoration: none;
+        text-align: center;
+        padding: 0;
+    }
+    .TitreTexte2, .TitreTexte3{
+        font-size: 0.75em;
+        padding-bottom: 0.5%;
+    }
+    .TitreH_IetC{
+        height:8vh;
+        background-size:cover;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .TexteMed-Cont{
+       /* width: 45vw;*/
+       width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        align-items: center;
+        justify-content: start;
+        font-size: 1em;
+        padding-left: 0.5vw;
+        height: 63vh;
+    }
+    .TexteMed-Cont1{
+        /* width: 45vw;*/
+        width: 40%;
+         display: flex;
+         flex-wrap: wrap;
+         height: fit-content;
+         align-items: center;
+         justify-content: start;
+         font-size: 1em;
+         padding-left: 0.5vw;
+         height: 63vh;
+         background: #BEB7B1;
+     }
+    .TexteMed-Cont img{
+        Width: 34vw;
+        height: 28vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+
+    }
+    .texteMed1{
+        display: flex;
+        flex-direction: column;
+        /*background: blue;*/
+        font-size: 0.8rem;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        font-size: 0.8em;
+        width: 45vw;
+    
+    }
+    b{
+        padding-left: 3%;
+        font-size: 1em;
+    }
+    .ElementsCont img{
+        width: 10vw;
+        height: 4vh;
+        padding-left: 5%;
+    }
+    .ElementsCont{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1vh;
+        width: 55vw;
+        padding-bottom: 0%;
+        margin: 8% auto;
+        justify-content: start;
+    }
+    address{
+        width: 40vw;
+        padding-right: 2%;
+        height: 25vh;
+    }   
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+        margin: 0 auto;
+    }
+    #centrage{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 7vw;
+        margin: 0 auto;
+    }
+    .links img{
+        width: 7vw;
+    }
 }
