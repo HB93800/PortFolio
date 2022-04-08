@@ -1,26 +1,27 @@
 .container{
     display: flex;
-    width: 50% !important;
+    width: 70% !important;
     margin: 0 auto;
-
-
+    background-image: url('/PICS/BckG_GraySmoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
 }
 .container1{ /*Aside container*/
     width: 80%;
-    height: 130vh;
-    background: #D1C8C8;
+    height: 150vh;
 }
 aside{
     display: flex;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(148, 140, 128);
-    width: 20%;
+    width: 30%;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
+    /*font-size: 1em;*/
 }
 aside a{
-    font-size: 0.8em;
+    font-size: 1em !important;
 }
 .conAside img{ /*les images de ma div dans la balise Aside*/
     margin-left: 5%;
@@ -34,21 +35,19 @@ aside a{
     padding-bottom: 1%;
     margin-top: 2%;
     Margin-bottom: 0%;
-    /*align-items: center;*/
-    /*width: 100px;*/
-    /*height: 12vh;*/
+   
     text-align: center;
 }
 .TitreH{
     display: block;
-    width: 20%;
-    height: 28vh;
+    width: 100%;
+    height: 10vh;
     background-image: url("../PICS/DEV-2.jfif");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     /*font-size: 10px !important;*/
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     
 }
 .TitreTexte{
@@ -103,13 +102,14 @@ aside a{
 
 .TexteMed{
     position: relative;
-    width: 45%;
+    width: 100%;
     display: flex;
-    background: #BEB7B1;
+    background: green;
+    opacity: 0.6;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0%;
-    height: 26vh;
+    margin: 1% 0%;
+    height: 35vh;
 
 }
 .TexteMed2-3_1{
@@ -169,16 +169,17 @@ object-fit: cover;
 }
 /*-------------Page html-Infos & Comp-------------*/
 .container1_IC{ /*Aside container*/
-    width: 70.1vw;
-    height: 150vh;
-    background: #D1C8C8;
+    width: 70%;
+    height: 190vh;
+    /*background: red;*/
+    margin: 1% 5%;
 }
 
 
 .TitreH_IetC{
     display: block;
     width: 100%;
-    height: 25%;
+    /*height: 25%;*/
     margin-left: 5%;
     background-image: url("../PICS/DEV-2.jfif");
     background-repeat: no-repeat;
@@ -195,7 +196,7 @@ object-fit: cover;
     width: 20%;
    /* align-items: center;
     justify-content: center;*/
-    font-size: 2em;
+    font-size: 1em;
 }
 .MedianeIetC{
     display: Flex;
@@ -203,17 +204,20 @@ object-fit: cover;
     width: 100%;
     padding-top: 2%;
     padding-left: 5%;
-    position:relative;
+    position: relative;
   
 }
 .TexteMed-IetC{
     position: relative;
     width: 5%;
     display: flex;
-    background: #BEB7B1;
-    margin: 0%;
-    height: 26vh;
-    padding-left: 1%;
+    background: yellow;
+    opacity: 0.7;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0%;
+    /*height: 26vh;*/
+    padding-left: 0%;
 
 }
 .icon1{
@@ -240,8 +244,12 @@ object-fit: cover;
 .skillspart{
     display: flex;
     flex-direction: column;
-    width: 37.5vw;
-    background: #BEB7B1;
+    width: 50%;
+    background: blue;
+    opacity: 0.6;
+    margin: 1% 0%;
+    padding: 2% 0%;
+    color: white;
     
 }
 .skillspart strong{
@@ -258,49 +266,63 @@ object-fit: cover;
 }
 /*-------------Page Contatc--------------------------------*/
 .container1_Cont{ /*Aside container*/
-    width: 50%;
-    height: 45vh;
-   background: #D1C8C8;
+    width: 70%;
+    height:fit-content;
+    background-image: url('../PICS/BckG_GraySmoke.jpg');
 }
+.titulaireFol2{
+    background-image: url('../PICS/BckG_Road-Trees.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MedianeIetC {
+    display: Flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 0%;
+    padding-left: 5%;
+    position: relative;
+    background-image: url('../PICS/BckG_GraySmoke.jpg');
+}
+
 .TexteMed-Cont img{
-    Width: 85%;
-    height: 27%;
-    image-rendering: optimizeSpeed;
-    object-fit: cover;
-    margin: 5% 6%;
+    Width: 80%;
+    object-fit: scale-down;
+    
 }
 .TexteMed-Cont{
-    position: relative;
-    width: 40%;
-    display: inline-block;
-    flex-wrap: nowrap;
-    background: #BEB7B1;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0%;
-    height: 30vh;
-    padding-top: 2% 0%;
+        /* position: relative; */
+        width: 48%;
+        /* display: inline-block; */
+        flex-wrap: nowrap;
+        /*background: #BEB7B1;*/
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; */
+        /* margin: 0%; */
+        height: fit-content;
+        padding-top: 1% 0%;
 
 }
 .TexteMed-Cont1{
     position: relative;
-    width: 50%;
-    height: 30vh;
+    width: 48%;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
-    background: #BEB7B1;
+    background: #888683;
     flex-wrap: wrap;
     /*justify-content: space-between;*/
-    margin: 0%;
-    padding: 4% 0%;
+    margin: 0% 0%;
+    padding: 2% 0%;
+    opacity: 0.8;
 
 }
 .texteMed1{
-    font-size: 0.6em;
+    font-size: 1em;
     padding-top: 0%;
     padding-bottom: 0;
     padding-left: 0%;
-    width: 100%;
+    width: 85%;
     margin: 0;
 }
 
@@ -308,24 +330,24 @@ address{
     padding: 0% 0%;
     margin: 0% 0%;
 }
-.texteMed1 p{
+.texteMed1 p, b{
     Margin: 0% 0%;
-    width: 8vw;
+    width: 100%;
     font-size: 1em;
-    padding: 0 0;
+    padding: 0% 0%;
 }
 
 .ElementsCont{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     /*height: 8vh;*/
-    width: 10vw;
+    width: 70%;
     margin: 0% 0%;
     padding: 1% 4%;
 }
 .ElementsCont img{
-    width: 20px;
-    height: 23px;
+    width: 19%;
+    height: 20%;
     padding-right: 1.5%;
     object-fit:fill;
 }
@@ -338,24 +360,23 @@ address{
 .links{
     display: flex;
     flex-wrap: nowrap;
-    width: 50%;
-    height: 3vh;
-    margin-top: 12%;
-    padding-bottom: 5%;
-    padding-left: 20%;
-    align-items: center;
-    justify-content: space-between;
+    height: 4vh;
+    padding-left: 15%;
+   
 }
 .links img{
-    Width: 2vw;
-    height: 2vh;
-    image-rendering: optimizeQuality;
-    object-fit:scale-down;
+    Width: 6vw;
+    height: 4vh;
+    object-fit:scale-down;           /*Le contenu est dimensionné comme si "none" 
+                                    ou "contain" étaient spécifiés, on prend celui qui 
+                                    aboutirait à une taille réelle plus petite.*/
+    padding: 2% 2%;
 }
-.centrage{
+#centrage{
     display: flex;
     /*justify-content: center;*/
-    padding-bottom: 15%;
+    margin-top: 2%;
+    padding-bottom: 1%;
 }
 /*-----Pour smartphone---------------------------------------*/
 @media screen and (max-device-width:400px){
@@ -400,6 +421,7 @@ address{
         flex-wrap: wrap;
         height: fit-content;
         align-items: center;
+        margin:0% 0%;
         /*justify-content: center;*/
         /*font-size: 0.8em;*/
     }
@@ -410,16 +432,17 @@ address{
         /*height: 15vh;*/
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
+        padding: 0 5%;
 
     }
     .texteMed1{
         font-size: 0.8rem;
         padding-top: 1%;
         padding-bottom: 1%;
-        width: 20vw;
+        width: 100%;
         margin: 0 0;
     }
-    b{
+    .ElementsCont a, p, b{
         padding: 0% 0%;
         margin: 0 0;
         font-size: 0.8em;
@@ -428,62 +451,75 @@ address{
         width: 3vw;
         height: 2vh;
         padding: 1% 0%;
-        margin: 0 0;
+        margin: 0 2%;
     }
     .ElementsCont{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         height: 10vh;
         margin: 0% 0%;
         /* justify-content: center; */
         padding: 0 0;
-        width: 50vw;
+        width: 100%;
     }
     address{
-        width: 45vw;
-        padding: 1% 1%;
+        width: 100%;
+        padding: 0% 2%;
         margin: 0 0;
         font-size: 1em;
     }
-    .texteMed1 b{
-        width: 45vw;
+   /* .texteMed1 b{
+        width: 100%;
+    }*/
+    .texteMed1 p{
+        Margin: 0% 1%;
+        width:100%;
+        /*font-size: 0.8em;*/
+        padding: 0 1;
     }
-    p{
-        Margin: 0% 0%;
-        width:50vw;
-        font-size: 0.8em;
-        padding: 0 0;
-    }   
     .links{
         display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: space-around;
-        width: 50vw;
-        margin: 0 auto;
-        padding: 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 0;
     }
+    /*.links img{
+        margin: 0% 0%;
+        padding: 0;
+        width: 5vw;
+        object-fit:contain;
+        flex-grow: 1;
+    }*/
     #centrage{
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        width: 50vw;
-        margin: 0 auto;
+        /*width: 0vw;*/
+        /*margin: 0 auto;*/
     }
+    /*#centrage img{
+        margin: 0% 0%;
+        width: 5vw;
+        object-fit:contain;
+        flex-grow: 1;
+        padding: 0;
+    }*/
     
 }
 
 
 @media screen and (min-device-width:401px) and (max-device-width:570px){
-    .container, .MedianeIetC{
-        background: black;
-        display: block;
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0% auto;
-        width: 90%;
-    }
+        .container, .MedianeIetC{
+            background: #D1C8C8;
+            display: block;
+            margin: 0% auto;
+            width: 90%;
+        }
         .titulaireFol2{
             display: block;
             width: 100%;
@@ -513,23 +549,6 @@ address{
             margin: 0;
             padding: 0;
         }
-        /*.TitreTexte{
-            font-size: 0.9em !important;
-            text-decoration: none;
-            padding: 0;
-        }*/
-        /*.TitreTexte2, .TitreTexte3{
-            font-size: 0.75em !important;
-            padding-bottom: 0.5%;
-            
-        
-        }*/
-        /*.TitreH_IetC{
-            height:12vh;
-            background-size:cover;
-            width: 100%;    
-            margin: 0 auto;
-        }*/
         .TexteMed-Cont{
             width:100%;
             display: flex;
@@ -537,52 +556,51 @@ address{
             height: fit-content;
             align-items: center;
             justify-content: center;
-            font-size: 1em;
+            margin-bottom: 2%;
         }
         .TexteMed-Cont1{
-            width:45vw;
+            border-top: ridge gray 1px;
+            width:100%;
             display: flex;
             flex-wrap: wrap;
             height: fit-content;
+            margin: 1% 0% ;
             /*align-items: center;*/
             /*justify-content: center;*/
-            font-size: 1em;
-        }
-        .TexteMed-Cont img{
-            Width: 50%;
-            /*height: 15vh;*/
-            padding-top: 0.5vh;
-            padding-bottom: 0.5vh;
-
-        }
+        }        
         .texteMed1{
             font-size: 0.8rem;
             padding-top: 2%;
             padding-bottom: 2%;
         }
         .texteMed1 b{
-            padding-left: 10%;
+            padding-left: 8%;
+            font-size: 1em;
+        }
+        .texteMed1 p{
+            font-size: 1em;
+            width: 100%;
         }
         .ElementsCont img{
-            width: 4vw;
+            width: 7vw;
             height: 3vh;
             padding-left: 5%;
         }
         .ElementsCont{
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             height: 8vh;
-            width: 40vw;
+            width: 100%;
             padding-bottom: 1%;
             margin: 8% auto;
             justify-content:start;
         }
-        .ElementsCont p{
-            width: 40vw;
+        .ElementsCont p a b{
+            width: 100%;
         }
         address{
-            width: 50vw;
-            padding-left: 5%;
+            width: 100%;
+            padding-left: 2%;
         }   
         .links{
             display: flex;
@@ -590,11 +608,12 @@ address{
             align-items: center;
             /*justify-content: space-between;*/
             width: 10vw;
-            margin: 0 22%;
+            margin: 0 21%;
         }
         .links img{
-            margin: 1% 35%;
+            margin: 0% 45%;
             width: 5vw;
+            object-fit:contain;
         }
         #centrage{
             display: flex;
@@ -606,8 +625,8 @@ address{
             
         }
         #centrage img{
-            margin: 2% 2%;
-            width: 3vw;
+            width: 6vw;            
+            object-fit: contain;
         }
         
     
@@ -616,83 +635,79 @@ address{
 
 /*-----Pour tablette portrait et paysage-------------------*/
 @media screen and (min-device-width:571px) and (max-device-width:900px){
-    .container, .MedianeIetC{
-        background: #D1C8C8;
+    .container{
+        background-image: url('../PICS/BckG_GraySmoke.jpg');
         display: flex;
         padding-left: 0;
         padding-right: 0;
-        width: 100vw !important;
+        width: 100% !important;
+    }
+    .MedianeIetC{
+        background: #87817c;
+        margin: 0% 2%;
+        width:95%;
+        display: block;
+        margin: 0 1%;
+
     }
     .titulaireFol2{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 10vw;
-        font-size: 1em;
+        font-size: 1.5em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         margin: 0 auto;
         width: 30vw;
-        height: 100vh;
+        /*height: 55vh;*/
+        background-image: url('../PICS/BckG_Road-Trees.jpg');
+        background-size: cover;
     }
-    /*.conAside{
-        display: block;
-        align-items: center;
-        justify-content: space-between;    
-    }
-    .container1_Cont{
-        display: block;    
-        width: 100vw;
-        /*margin: 2 2 2 2;
-        height: fit-content;
-        
-    }*/
     .TitreTexte{
-        font-size: 0.5em;
+        /*font-size: 0.5em;*/
         text-decoration: none;
         text-align: center;
         padding: 0;
     }
     .TitreTexte2, .TitreTexte3{
-        font-size: 0.75em;
+        /*font-size: 2.75em;*/
         padding-bottom: 0.5%;
     }
     .TitreH_IetC{
         height:8vh;
         background-size:cover;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto;
     }
     .TexteMed-Cont{
-       /* width: 45vw;*/
-       width: 40%;
+        background: #BEB7B1;
+        width: 95%;                  /*40% de son parent MedianeIetC*/
+        /*height: 70vh;*/           /* Pas nécessaire la photo prend la place nécessaire*/
         display: flex;
         flex-wrap: wrap;
-        height: fit-content;
-        align-items: center;
-        justify-content: start;
-        font-size: 1em;
-        padding-left: 0.5vw;
-        margin: 2% 1%;
-        height: 70vh;
+        padding: 0% 2%;
+        justify-content: center;
+
     }
     .TexteMed-Cont1{
+        
         /* width: 45vw;*/
-        width: 40%;
+         width: 95%;
          display: flex;
          flex-wrap: wrap;
          height: fit-content;
          align-items: center;
          justify-content: start;
          font-size: 1em;
-         padding-left: 0.5vw;
-         margin: 2% 1%;
-        height: 70vh;
-         background: #BEB7B1;
+         margin: 5% 0%;
+        /*height: 70vh;*/
+        background: #BEB7B1;
      }
     .TexteMed-Cont img{
-        Width: 34vw;
-        height: 28vh;
-        padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
+        Width: 80%;
+        /*height: 28vh;*/
+        object-fit: scale-down;
+        padding-top: 2%;
+        padding-bottom: 2%;
 
     }
     .texteMed1{
@@ -701,36 +716,38 @@ address{
         /*background: blue;*/
         font-size: 0.8rem;
         padding-top: 0.5%;
+        padding-left: 2%;
         padding-bottom: 1%;
         font-size: 0.8em;
         width: 45vw;
     
     }
-    b, p{
+    .ElementsCont b, p{
         padding-left: 3%;
         font-size: 1em;
         padding-bottom: 0%;
         padding-top: 0%;
-        margin: 0%;
+        margin: 0% 0%;
+        width: 100%;
     }
     .ElementsCont img{
-        width: 7vw;
-        height: 4vh;
+        width: 48px;
+        height: 20px;
         padding-left: 5%;
     }
     .ElementsCont{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         height: 1vh;
-        width: 55vw;
+        width: 100%;
         padding-bottom: 0%;
-        margin: 8% auto;
+        margin: 8% 1%;
         justify-content: start;
     }
     address{
-        width: 40vw;
+        width: 100%;
         padding-right: 2%;
-        height: 25vh;
+        /*height: 10vh;*/
     }   
     .links{
         display: flex;
@@ -738,19 +755,22 @@ address{
         /*align-items: center;
         justify-content: center;*/
         width: 10vw;
-        margin: 0% 0%;
-        padding: 0% 20%;
+        margin: 0% 30%;
+        padding: 0% 0%;
     }
     #centrage{
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
-        width: 7vw;
-        margin: 0 auto;
+        width: 10vw;
+        margin: 0px -8px;
+        padding: 0px;
     }
-    .links img{
+    #centrage img{
         width: 7vw;
+        padding: 0 0%;
+        margin: 0;
     }
 }    
 
