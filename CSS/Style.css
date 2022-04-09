@@ -41,7 +41,7 @@ aside a{
 .TitreH{
     display: block;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     background-image: url("../PICS/DEV-2.jfif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ aside a{
     margin-top: 0;
     font-size: 1em !important;
 }
-.Mediane{
+.Mediane{/*------------page index----------------*/
     display: Flex;
     flex-wrap: nowrap;
     width: 77%;
@@ -79,7 +79,7 @@ aside a{
     
 }
 
-.Mediane2-3{
+.Mediane2-3{/*------------page index----------------*/
     display: Flex;
     flex-wrap: nowrap;
     width: 77%;
@@ -89,27 +89,30 @@ aside a{
     position:relative;
     padding-bottom: 2%;
 }
-.Mediane4{
-    display: Flex;
-    flex-wrap: nowrap;
-    width: 77%;
-    padding-top: 2%;
-    padding-left: 10%;
+.TexteMed{/*------------page index----------------*/
+    position: relative;
+    width: 38%;
+    display: flex;
+    background: #888683;
+    opacity: 0.6;
+    flex-wrap: wrap;
     justify-content: space-between;
-    position:relative;
-    padding-bottom: 2%;
-}
+    margin: 3% 0%;
+    height: 35vh;
+    padding: 0% 1% ;
 
-.TexteMed{
+
+}
+.TexteMedExp{/*------------page Expériences----------------*/
     position: relative;
     width: 100%;
     display: flex;
-    background: green;
+    background: #888683;
     opacity: 0.6;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 1% 0%;
-    height: 35vh;
+    height: 15vh;
 
 }
 .TexteMed2-3_1{
@@ -122,7 +125,7 @@ aside a{
     margin: 0%;
     height: 4vh;
 }
-.TexteMed2-1{ /*style de ma div où j'ai ma pic*/
+.TexteMed2-1{ /*----Page Index **** style de ma div où j'ai ma pic*/
     position: absolute;
     bottom: 0%;
     left: 20%;
@@ -130,15 +133,20 @@ aside a{
     width: 100%;
 
 }
-.TexteMed2-1 img{ /* definition de mon image*/
-    width: 80%;
-    height: 80%;
+.TexteMed2-1 img{ /*------Page Index definition de mon image*/
+    width: 65%;
+    margin: 0;
 
 }  
- 
-.texteMed1{
-    font-size: 1em;
+.TexteMed2-0, .FormTexte{/*------------page index----------------*/
+    padding: 0% 0%;
+    margin-right: 0;
+    width: 100%;
+    font-size: 1.1em !important;
 }
+.MiseEnForme{/*------------page index----------------*/
+    margin-left: 10%;
+} 
 .ZonePic4{
     position: relative;
     width: 45%;
@@ -167,15 +175,29 @@ object-fit: cover;
     width: 10vw;
     height: 13vh;
 }
-/*-------------Page html-Infos & Comp-------------*/
+/*-------------Page html-Expériences-------------*/
 .container1_IC{ /*Aside container*/
-    width: 70%;
+    width: 100%;
     height: 190vh;
-    /*background: red;*/
-    margin: 1% 5%;
+    background-image: url('/PICS/BckG_GraySmoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0% 5%;
 }
-
-
+.MedianeIetC2{
+    display: Flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 0%;
+    /*padding-left: 5%;*/
+    position: relative;
+    background-image: url('../PICS/BckG_GraySmoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.corResponsive{
+    margin: 1% 0% !important;  
+}
 .TitreH_IetC{
     display: block;
     width: 100%;
@@ -211,11 +233,11 @@ object-fit: cover;
     position: relative;
     width: 5%;
     display: flex;
-    background: yellow;
+    background: #888683;
     opacity: 0.7;
     align-items: center;
     justify-content: center;
-    margin: 1% 0%;
+    margin: 3% 0%;
     /*height: 26vh;*/
     padding-left: 0%;
 
@@ -229,26 +251,23 @@ object-fit: cover;
     height: 45vh;
 
 }
-.Morelarge{
-   /* width: 40.8vw;*/
-}
 .MedianeSKIetC{
     display: Flex;
     flex-wrap: wrap;
-    width: 177%;
+    width: 182%;
     padding-top: 0%;
-    padding-left: 5%;
-    position:relative;
+    padding-left: 0;
+    position: relative;
   
 }
 .skillspart{
     display: flex;
     flex-direction: column;
     width: 50%;
-    background: blue;
+    background: #888683;
     opacity: 0.6;
-    margin: 1% 0%;
-    padding: 2% 0%;
+    margin: 3% 0%;
+    padding: 0% 0%;
     color: white;
     
 }
@@ -257,25 +276,27 @@ object-fit: cover;
     padding-left: 12%;
 
 }
-.TexteMed2{
+.TexteMed2{/*----------Page Expériences---------------*/
     width: 90%;
    
 }
-#Mycolor{
+#Mycolor{/*-----------Page Expériences---***-pour les barre progress-----*/
     background: #222279;
 }
-/*-------------Page Contatc--------------------------------*/
+/*-------------Page Contact--------------------------------*/
 .container1_Cont{ /*Aside container*/
-    width: 70%;
+    width: 80%;
     height:fit-content;
     background-image: url('../PICS/BckG_GraySmoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .titulaireFol2{
     background-image: url('../PICS/BckG_Road-Trees.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.MedianeIetC {
+.MedianeIetC{
     display: Flex;
     flex-wrap: nowrap;
     width: 100%;
@@ -318,22 +339,22 @@ object-fit: cover;
 
 }
 .texteMed1{
-    font-size: 1em;
+    font-size: 0.75em;
     padding-top: 0%;
     padding-bottom: 0;
     padding-left: 0%;
-    width: 85%;
-    margin: 0;
+    width: 100%;
+    margin: 0% 0%;
 }
 
 address{
     padding: 0% 0%;
     margin: 0% 0%;
 }
-.texteMed1 p, b{
+.texteMed1 p, b, ul, li{
     Margin: 0% 0%;
     width: 100%;
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 0% 0%;
 }
 
@@ -351,9 +372,10 @@ address{
     padding-right: 1.5%;
     object-fit:fill;
 }
-.email{
+.email{/*-----------------class dans page Contact partie @mail------*/
     text-decoration: none;
     font-weight: bold;
+    color: #9BAC2F;
     height: 2vh;   
     padding-bottom: 1px;
 }
@@ -385,19 +407,75 @@ address{
         padding-left: 0;
         padding-right: 0;
         width: 100%;
+        margin: 0 auto;
+        font-size: 0.5em;
+    }
+    .corResponsive{
+        margin: 1% 0%;
+    }
+    .MedianeIetC2{       /*-------------page Expériences----------*/
+        display: flex;
+        /*background: red;*/    /*------pour repérer la zone-----*/
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 1%;
+        margin-top: 0;
+        padding: 0 0;
+    }
+    .icon1{
+        width:10px;
+    }
+    .MedianeSKIetC{    /* page Expériences ------ */
+        width:175%;
+        margin: 0 0;
+        padding: 0 0;  
+    }
+    .TexteMed2{
+        font-size: 8px !important;
+    }
+    .TexteMed{
+        height: fit-content;
+        margin: 1% 0%;
     }
     .titulaireFol2{
         display: block;
+        width: 70%;
+        font-size: 0.9em;
+        margin: 0% auto;
+        background: rgb(57, 57, 57);
+    }
+    .container1_IC{
+        display: block;
+        margin: 2% 0%;
         width: 100%;
-        font-size: 0.4em;
+        /*margin: 2 2 2 2;*/
+        height: fit-content;        
+    }
+
+    .TexteMed-IetC{
+        width: 7%;
+    }
+    hr{
+        margin: 0 0 !important;
+        padding: 0;
+        height: 1px !important;
+    }
+    .CorrectionP {
+        margin-top: 0.5%;
+        height: 60vh;
+        margin-bottom: 0;
+        padding: 0;
     }
     .container1_Cont{
         display: block;
-    
         width: 100%;
         /*margin: 2 2 2 2;*/
         height: fit-content;
         
+    }
+    .icon1{
+        width: 18px;
+        height: 18px;
     }
     .TitreTexte{
         font-size: 1em !important;
@@ -408,7 +486,7 @@ address{
         padding-bottom: 1%;
     }
     .TitreH_IetC{
-        height:10vh;
+        height:8vh;
         text-align: center;
         justify-self: center;
         background-size:cover;
@@ -425,27 +503,28 @@ address{
         /*justify-content: center;*/
         /*font-size: 0.8em;*/
     }
-    
-
     .TexteMed-Cont img{
         Width: 90%;
         /*height: 15vh;*/
         padding-top: 0.5vh;
-        padding-bottom: 0.5vh;
+        margin-bottom: 1%;
         padding: 0 5%;
 
     }
     .texteMed1{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding-top: 1%;
-        padding-bottom: 1%;
+        padding-bottom: 2%;
         width: 100%;
-        margin: 0 0;
+        margin: 0% 0%;
     }
-    .ElementsCont a, p, b{
+    .texteMed1 p, .texteMed1 b .texteMed1 u{/*-------Page Expériences----*/
+        font-size: 0.75em;
+    }
+    .ElementsCont a, p, b, li/*--li de Expériences----*/{
         padding: 0% 0%;
         margin: 0 0;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .ElementsCont img{
         width: 3vw;
@@ -512,18 +591,58 @@ address{
     
 }
 
-
 @media screen and (min-device-width:401px) and (max-device-width:570px){
         .container, .MedianeIetC{
-            background: #D1C8C8;
+            background-image: url('/PICS/BckG_GraySmoke.jpg');
             display: block;
             margin: 0% auto;
             width: 90%;
         }
+        .container1_IC{
+            display: block;
+            margin: 1% 0%;
+            width: 100%;
+            /*margin: 2 2 2 2;*/
+            height: fit-content;
+            font-size: 0.9em;        
+        }
+        .MedianeIetC2{/*-------------de la page Expériences----------*/
+            display: flex;
+            /*background: blue;*/
+            height: fit-content;
+            width: 100%;
+    
+        }
+        .MedianeSKIetC{/*--------Page Expériences-------*/
+            width: 180%;
+            margin: 1% 1%;
+        }
+        .skillspart{/*-------------de la page Expériences----------*/
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            background: #888683;
+            opacity: 0.6;
+            margin: 1% 0%;
+            padding: 0% 0%;
+            color: white;            
+        }
+        .TexteMed-IetC{
+            margin: 1% 0%;
+        }
+        .CorrectionP {/*-------------de la page Expériences----------*/
+            margin-top: 0%;
+            /*height: 50vh;*/
+        }
+        .icon1{
+            width: 19px;
+            height: 20px;
+    
+        }
         .titulaireFol2{
             display: block;
             width: 100%;
-            font-size: 1em;
+            font-size: 0.8em;
             margin: 0 auto;
             width: 100%;
         }
@@ -542,14 +661,14 @@ address{
         .TitreH_IetC{
             text-align: center;
             font-size: 0.8em !important;
-            height: 10vh;
+            height: 12vh;
         }
         .TitreTexte2 b{
             /*padding: 0% 40% !important;*/
             margin: 0;
             padding: 0;
         }
-        .TexteMed-Cont{
+        .TexteMed-Cont{/*-------------Pour page contact---------------*/
             width:100%;
             display: flex;
             flex-wrap: nowrap;
@@ -559,7 +678,7 @@ address{
             margin-bottom: 2%;
         }
         .TexteMed-Cont1{
-            border-top: ridge gray 1px;
+            border-top: ridge gray 4px;
             width:100%;
             display: flex;
             flex-wrap: wrap;
@@ -568,25 +687,35 @@ address{
             /*align-items: center;*/
             /*justify-content: center;*/
         }        
-        .texteMed1{
-            font-size: 0.8rem;
-            padding-top: 2%;
+        .texteMed1{/*-----Attention page Expériences concernée----*/
+            font-size: 0.73rem;
+            padding-top:0%;
             padding-bottom: 2%;
-        }
-        .texteMed1 b{
-            padding-left: 8%;
-            font-size: 1em;
-        }
-        .texteMed1 p{
-            font-size: 1em;
+            margin-bottom: 3%;
+        }        
+        .texteMed1 p{/*-----Attention page Expériences concernée----*/
+            font-size: 0.73em;
             width: 100%;
         }
-        .ElementsCont img{
+        .texteMed1 b{/*-----Attention page Expériences concernée----*/
+            padding-left:1%;
+            font-size: 0.73em;
+        }
+        .texteMed1 li, ul{/*----------Page Expériences uniquement---------*/
+            font-size: 0.9em;
+            width: 100%;
+        }
+        hr{
+            margin:0 0 !important;
+            padding: 0 0 !important;
+            height: 1px !important;
+        }
+        .ElementsCont img{/*------------page Contact  --------*/
             width: 7vw;
             height: 3vh;
             padding-left: 5%;
         }
-        .ElementsCont{
+        .ElementsCont{/*------------page Contact  --------*/
             display: flex;
             flex-wrap: nowrap;
             height: 8vh;
@@ -595,14 +724,14 @@ address{
             margin: 8% auto;
             justify-content:start;
         }
-        .ElementsCont p a b{
+        .ElementsCont p a b {/*------------page Contact  --------*/
             width: 100%;
         }
-        address{
+        address{                /*------------page Contact  --------*/
             width: 100%;
             padding-left: 2%;
         }   
-        .links{
+        .links{                /*------------page Contact  --------*/
             display: flex;
             flex-wrap: nowrap;
             align-items: center;
@@ -610,12 +739,12 @@ address{
             width: 10vw;
             margin: 0 21%;
         }
-        .links img{
+        .links img{/*------------page Contact  --------*/
             margin: 0% 45%;
             width: 5vw;
             object-fit:contain;
         }
-        #centrage{
+        #centrage{/*------------page Contact  --------*/
             display: flex;
             flex-wrap: nowrap;
             align-items: center;
@@ -624,37 +753,49 @@ address{
             margin: 0 0%;
             
         }
-        #centrage img{
+        #centrage img{/*------------page Contact  --------*/
             width: 6vw;            
             object-fit: contain;
-        }
-        
+        }       
     
 }
 
-
 /*-----Pour tablette portrait et paysage-------------------*/
-@media screen and (min-device-width:571px) and (max-device-width:900px){
-    .container{
+@media screen and (min-device-width:571px) and (max-device-width:1420px){
+    .container{/*---------------Toutes les pages----------*/
         background-image: url('../PICS/BckG_GraySmoke.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         padding-left: 0;
         padding-right: 0;
         width: 100% !important;
+        height: fit-content;
     }
-    .MedianeIetC{
-        background: #87817c;
+    .MedianeIetC{/*------------Page Contact----------------*/
+        /*background: #87817C;*/
         margin: 0% 2%;
         width:95%;
         display: block;
         margin: 0 1%;
 
     }
-    .titulaireFol2{
+    .MedianeIetC2{/*------------Page Expériences----------------*/
+        /*background: #888683;*/
+        margin:0% 0%;
+        width:95%;
+        display: flex;
+        margin: 0 1%;
+
+    }
+    hr{
+        margin:0 !important;
+    }
+    .titulaireFol2{/*---------------Toutes les pages----------*/
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.5em;
+        font-size: 1.4em;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         margin: 0 auto;
         width: 30vw;
@@ -673,13 +814,16 @@ address{
         padding-bottom: 0.5%;
     }
     .TitreH_IetC{
-        height:8vh;
-        background-size:cover;
+        height:14vh;
         width: 100%;
         margin: 0 auto;
     }
-    .TexteMed-Cont{
-        background: #BEB7B1;
+    .CorrectionP{/*--------Page Expérience-------*/
+        margin: 1% 0%;
+        height: 50vh;
+    }
+    .TexteMed-Cont{/*-----------Page Contact------*/
+        background: #635d58;
         width: 95%;                  /*40% de son parent MedianeIetC*/
         /*height: 70vh;*/           /* Pas nécessaire la photo prend la place nécessaire*/
         display: flex;
@@ -688,7 +832,7 @@ address{
         justify-content: center;
 
     }
-    .TexteMed-Cont1{
+    .TexteMed-Cont1{/*-----------Page Contact------*/
         
         /* width: 45vw;*/
          width: 95%;
@@ -700,9 +844,9 @@ address{
          font-size: 1em;
          margin: 5% 0%;
         /*height: 70vh;*/
-        background: #BEB7B1;
+        background: #635d58;
      }
-    .TexteMed-Cont img{
+    .TexteMed-Cont img{/*-----------Page Contact------*/
         Width: 80%;
         /*height: 28vh;*/
         object-fit: scale-down;
@@ -710,19 +854,78 @@ address{
         padding-bottom: 2%;
 
     }
-    .texteMed1{
+    .texteMed1{/*-----Attention page Expériences concernée----*/
         display: flex;
         flex-direction: column;
         /*background: blue;*/
-        font-size: 0.8rem;
-        padding-top: 0.5%;
+        /*padding-top: 0.5%;
         padding-left: 2%;
-        padding-bottom: 1%;
-        font-size: 0.8em;
+        padding-bottom: 1%;*/
         width: 45vw;
+        margin: 0% 1%;
+        font-size: 0.9em;
     
     }
-    .ElementsCont b, p{
+    .texteMed1 p, li{/*-----Attention page Expériences concernée----*/
+        font-size: 0.7em;
+    }
+    .TexteMed2-3_1{/*----------Page Index--------------*/
+        width: 40%;
+    }
+    .MedianeSKIetC{/*--------Page Expériences-------*/
+        width: 160%;
+    }
+    .skillspart {/*--------Page Expériences-------*/
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background: #888683;
+        opacity: 0.6;
+        margin: 1% 0%;
+        padding: 0% 0%;
+        color: white;
+    }
+    .icon1{/*--------Page Expériences-------*/
+        width: 28px;
+        height: 24px;
+    }    
+   
+    .texteMed3{/*-----------Page Index--------*/
+            font-size: 0.7em;
+    }
+    .ZonePic4{/*---------------------Page index------------*/
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .SkillsPic1{/*---------------------Page index------------*/
+        width: 90%;
+        object-fit: cover;
+    }
+    .SkillsPic21{/*---------------------Page index------------*/
+        width: 80%;
+        object-fit: scale-down;
+    }
+    .TexteMed2-1 img{ /*------Page Index--\\--definition de mon image*/
+        width: 80%;
+        /*height: 75%;*/
+        object-fit: scale-down;
+        left:35%
+    
+    } 
+    .TexteMed-IetC {/*--------Page Contact-------*/
+        position: relative;
+        width: 10%;
+        display: flex;
+        background: #888683;
+        opacity: 0.7;
+        align-items: center;
+        justify-content: center;
+        margin: 1% 0%;
+        /* height: 26vh; */
+        padding-left: 0%;
+    }
+    .ElementsCont b, p{/*--------Page Contact-------*/
         padding-left: 3%;
         font-size: 1em;
         padding-bottom: 0%;
@@ -730,12 +933,12 @@ address{
         margin: 0% 0%;
         width: 100%;
     }
-    .ElementsCont img{
+    .ElementsCont img{/*--------Page Contact-------*/
         width: 48px;
         height: 20px;
         padding-left: 5%;
     }
-    .ElementsCont{
+    .ElementsCont{/*--------Page Contact-------*/
         display: flex;
         flex-wrap: nowrap;
         height: 1vh;
@@ -744,12 +947,12 @@ address{
         margin: 8% 1%;
         justify-content: start;
     }
-    address{
+    address{/*--------Page Contact-------*/
         width: 100%;
         padding-right: 2%;
         /*height: 10vh;*/
     }   
-    .links{
+    .links{/*--------Page Contact-------*/
         display: flex;
         flex-wrap: nowrap;
         /*align-items: center;
@@ -758,7 +961,7 @@ address{
         margin: 0% 30%;
         padding: 0% 0%;
     }
-    #centrage{
+    #centrage{/*--------Page Contact-------*/
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -767,11 +970,11 @@ address{
         margin: 0px -8px;
         padding: 0px;
     }
-    #centrage img{
+    #centrage img{/*--------Page Contact-------*/
         width: 7vw;
         padding: 0 0%;
         margin: 0;
-    }
+    } 
 }    
 
     
