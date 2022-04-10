@@ -1,17 +1,20 @@
 .container{
     display: flex;
-    width: 70% !important;
+    width: 80% !important;
     margin: 0 auto;
+    /*background-image: url('/PICS/BckG_GraySmoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: fit-content;
+}
+.container1{/*----------Page Index ---//--- Aside container*/
+    width: 100%;
+    /*height: 170vh;*/
     background-image: url('/PICS/BckG_GraySmoke.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: fit-content;
 }
-.container1{ /*Aside container*/
-    width: 80%;
-    height: 150vh;
-}
-aside{
+aside{/*---------------Toutes les pages----------------*/
     display: flex;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(148, 140, 128);
@@ -20,7 +23,7 @@ aside{
     justify-content: center;
     /*font-size: 1em;*/
 }
-aside a{
+aside a{/*---------------Toutes les pages----------------*/
     font-size: 1em !important;
 }
 .conAside img{ /*les images de ma div dans la balise Aside*/
@@ -35,10 +38,9 @@ aside a{
     padding-bottom: 1%;
     margin-top: 2%;
     Margin-bottom: 0%;
-   
     text-align: center;
 }
-.TitreH{
+.TitreH{/*---------------Page Index----------------*/
     display: block;
     width: 100%;
     height: 12vh;
@@ -50,25 +52,20 @@ aside a{
     /*margin-left: 10%;*/
     
 }
-.TitreTexte{
+.TitreTexte{/*---------------Toutes les pages----------------*/
     padding-top: 0%;
     padding-bottom: 2%;
     padding-left: 10%;
     font-size: 1.2em;
-    
+    color: #8D4E4E;    
 }
-.TitreTexte{
-    color: #8D4E4E;
- 
-
-}
-.TitreTexte2, .TitreTexte3{
+.TitreTexte2, .TitreTexte3{/*-------------Toutes les pages----------*/
     color: #9BAC2F;
     margin-bottom: 0;
     margin-top: 0;
     font-size: 1em !important;
 }
-.Mediane{/*------------page index----------------*/
+.Mediane{/*------------page Index----------------*/
     display: Flex;
     flex-wrap: nowrap;
     width: 77%;
@@ -79,17 +76,32 @@ aside a{
     
 }
 
-.Mediane2-3{/*------------page index----------------*/
+.Mediane2-3{/*------------page Index----------------*/
     display: Flex;
     flex-wrap: nowrap;
-    width: 77%;
+    width: 96%;
     padding-top: 2%;
-    padding-left: 10%;
-    justify-content: space-between;
+    padding-left: 5%;
+    margin: 0 0%;
+    /*justify-content: space-between;*/
     position:relative;
     padding-bottom: 2%;
 }
-.TexteMed{/*------------page index----------------*/
+.Mediane2-3-2{/*------------page Index----------------*/
+    display: Flex;
+    flex-wrap: nowrap;
+    width: 75%;
+    padding-top: 1%;
+    padding-left: 5%;
+    margin: 0% 5%;
+    justify-content: space-between;
+    position:relative;
+    padding-bottom: 2%;
+    background-image: url('/PICS/CouleurSympa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TexteMed{/*------------page Index----------------*/
     position: relative;
     width: 38%;
     display: flex;
@@ -98,32 +110,24 @@ aside a{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 3% 0%;
-    height: 35vh;
-    padding: 0% 1% ;
-
+    /*height: 35vh;*/
+    padding: 1% 1%;
+}
+.Equil{/*---------Page Index------------------*/
+    margin-left:15% !important;
+    
 
 }
-.TexteMedExp{/*------------page Expériences----------------*/
+.TexteMed2-3_1{/*------------page Index----------------*/
     position: relative;
-    width: 100%;
+    width: 30%;
     display: flex;
     background: #888683;
-    opacity: 0.6;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 1% 0%;
-    height: 15vh;
-
-}
-.TexteMed2-3_1{
-    position: relative;
-    width: 45%;
-    display: flex;
-    background: #BEB7B1;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0%;
+    margin: 0% 5%;
     height: 4vh;
+    color: white;
 }
 .TexteMed2-1{ /*----Page Index **** style de ma div où j'ai ma pic*/
     position: absolute;
@@ -138,67 +142,74 @@ aside a{
     margin: 0;
 
 }  
-.TexteMed2-0, .FormTexte{/*------------page index----------------*/
+.TexteMed2-0, .FormTexte{/*------------page Index----------------*/
     padding: 0% 0%;
-    margin-right: 0;
     width: 100%;
     font-size: 1.1em !important;
+    color: white;
 }
-.MiseEnForme{/*------------page index----------------*/
-    margin-left: 10%;
-} 
-.ZonePic4{
+.FormTexte{/*------------page Index----------------*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ZonePic4{/*------------page Index----------------*/
     position: relative;
     width: 45%;
     display: flex;
-    background: #BEB7B1;
+    background:none;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 0%;
-    height: 60vh;
     padding: 3%;
 
 }
-.SkillsPic1{
+.SkillsPic1{/*------------page Index----------------*/
 width: 12vw;
 height: 25vh;
 object-fit: cover;
+border: ridge white 2mm;
+border-style: groove;
+
+border-radius: 10%;
 }
-.SkillsPic21{
-    width: 10vw;
-    height: 15vh;
+figcaption{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.SkillsPic21{/*------------page Index----------------*/
+    width: 80%;
+    height: auto;
     object-fit: cover;
+    nmargin: 4% 2%;
     
 }
-#Office365pic{
-    width: 10vw;
-    height: 13vh;
+#Office365pic{/*------------page Index----------------*/
+    width: 80%;
+    height: auto    ;
 }
-/*-------------Page html-Expériences-------------*/
-.container1_IC{ /*Aside container*/
+/*-------------------------PAGE HTML-EXPERIENCES---------------------------------*/
+.container1_IC{ /*----------Page Exp & Contact *** Aside container*/
     width: 100%;
     height: 190vh;
     background-image: url('/PICS/BckG_GraySmoke.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0% 5%;
+    margin: 0% 0%;
 }
-.MedianeIetC2{
+.MedianeIetC2{/*-----------------Page Expériences---------------*/
     display: Flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 95%;
     padding-top: 0%;
+    margin: 0% auto;
     /*padding-left: 5%;*/
     position: relative;
     background-image: url('../PICS/BckG_GraySmoke.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.corResponsive{
-    margin: 1% 0% !important;  
-}
-.TitreH_IetC{
+.TitreH_IetC{/*-----------------Pages Exp & Contact------------*/
     display: block;
     width: 100%;
     /*height: 25%;*/
@@ -211,7 +222,7 @@ object-fit: cover;
     margin: 0% 0%;
     
 }
-.titulaireFol2{
+.titulaireFol2{/*-----------------Pages Exp & Contact------------*/
     display: flex;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(148, 140, 128);
@@ -220,16 +231,22 @@ object-fit: cover;
     justify-content: center;*/
     font-size: 1em;
 }
-.MedianeIetC{
-    display: Flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-top: 2%;
-    padding-left: 5%;
+.TexteMedExp{/*------------page Expériences----------------*/
     position: relative;
-  
+    width: 100%;
+    display: flex;
+    background: #888683;
+    opacity: 0.6;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1% 0%;
+    height: 15vh;
+
 }
-.TexteMed-IetC{
+.corResponsive{/*---------------Page Expériences----------------*/
+    margin: 1% 0% !important;  
+}
+.TexteMed-IetC{/*---------------Page Expériences----------------*/
     position: relative;
     width: 5%;
     display: flex;
@@ -242,16 +259,16 @@ object-fit: cover;
     padding-left: 0%;
 
 }
-.icon1{
+.icon1{/*---------------Page Expériences----------------*/
     width:2vw;
     height: 6vh;
 }
-.CorrectionP{
+.CorrectionP{/*---------------Page Expériences----------------*/
     margin-top: -1%;
     height: 45vh;
 
 }
-.MedianeSKIetC{
+.MedianeSKIetC{/*---------------Page Expériences----------------*/
     display: Flex;
     flex-wrap: wrap;
     width: 182%;
@@ -260,7 +277,7 @@ object-fit: cover;
     position: relative;
   
 }
-.skillspart{
+.skillspart{/*---------------Page Expériences----------------*/
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -271,7 +288,7 @@ object-fit: cover;
     color: white;
     
 }
-.skillspart strong{
+.skillspart strong{/*---------------Page Expériences----------------*/
     padding-top: 4%;
     padding-left: 12%;
 
@@ -283,9 +300,9 @@ object-fit: cover;
 #Mycolor{/*-----------Page Expériences---***-pour les barre progress-----*/
     background: #222279;
 }
-/*-------------Page Contact--------------------------------*/
-.container1_Cont{ /*Aside container*/
-    width: 80%;
+/*-------------PAGE CONTACT--------------------------------*/
+.container1_Cont{ /*----------Page Contact---//---Aside container--*/
+    width: 70%;
     height:fit-content;
     background-image: url('../PICS/BckG_GraySmoke.jpg');
     background-repeat: no-repeat;
@@ -296,22 +313,34 @@ object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.MedianeIetC{
+.MedianeIetC{/*-------------------Page Contact--------------------*/
     display: Flex;
     flex-wrap: nowrap;
     width: 100%;
-    padding-top: 0%;
+    padding-top: 2%;
     padding-left: 5%;
+    margin: 0 0;
     position: relative;
     background-image: url('../PICS/BckG_GraySmoke.jpg');
 }
-
-.TexteMed-Cont img{
+.texteMed1{/*-------------------Toutes les pages--------------------*/
+    font-size: 0.75em;
+    padding-top: 0%;
+    padding-bottom: 0;
+    padding-left: 0%;
+    width: 100%;
+    margin: 0% 0%;
+}
+.PoliceStyle{/*-----------Page Expériences Non Responsive---------------------*/
+    font-size: 0.9em !important;
+    color: white;
+}
+.TexteMed-Cont img{/*-------------------Page Contact--------------------*/
     Width: 80%;
     object-fit: scale-down;
     
 }
-.TexteMed-Cont{
+.TexteMed-Cont{/*-------------------Page Contact--------------------*/
         /* position: relative; */
         width: 48%;
         /* display: inline-block; */
@@ -324,7 +353,7 @@ object-fit: cover;
         padding-top: 1% 0%;
 
 }
-.TexteMed-Cont1{
+.TexteMed-Cont1{/*-------------------Page Contact--------------------*/
     position: relative;
     width: 48%;
     height: fit-content;
@@ -338,20 +367,11 @@ object-fit: cover;
     opacity: 0.8;
 
 }
-.texteMed1{
-    font-size: 0.75em;
-    padding-top: 0%;
-    padding-bottom: 0;
-    padding-left: 0%;
-    width: 100%;
-    margin: 0% 0%;
-}
-
-address{
+address{/*-------------------Page Contact--------------------*/
     padding: 0% 0%;
     margin: 0% 0%;
 }
-.texteMed1 p, b, ul, li{
+.texteMed1 p, b, ul, li{/*--------------Page Expériences-------------*/
     Margin: 0% 0%;
     width: 100%;
     font-size: 0.9em;
@@ -372,21 +392,21 @@ address{
     padding-right: 1.5%;
     object-fit:fill;
 }
-.email{/*-----------------class dans page Contact partie @mail------*/
+.email{/*-----------------Page Contact // partie @mail------*/
     text-decoration: none;
     font-weight: bold;
     color: #9BAC2F;
     height: 2vh;   
     padding-bottom: 1px;
 }
-.links{
+.links{/*-------------------Page Contact--------------------*/
     display: flex;
     flex-wrap: nowrap;
     height: 4vh;
     padding-left: 15%;
    
 }
-.links img{
+.links img{/*-------------------Page Contact--------------------*/
     Width: 6vw;
     height: 4vh;
     object-fit:scale-down;           /*Le contenu est dimensionné comme si "none" 
@@ -394,23 +414,68 @@ address{
                                     aboutirait à une taille réelle plus petite.*/
     padding: 2% 2%;
 }
-#centrage{
+#centrage{/*-------------------Page Contact--------------------*/
     display: flex;
     /*justify-content: center;*/
     margin-top: 2%;
     padding-bottom: 1%;
 }
+.Formul-Contact{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.Formul-Contact a{
+    color: black;
+    font-family: fantasy;
+}
+
+
+
 /*-----Pour smartphone---------------------------------------*/
 @media screen and (max-device-width:400px){
-    .container, .MedianeIetC{
+
+    .container, .MedianeIetC{/*------------Toutes pages // Pages Exp & Contact--------*/
         display: block;
         padding-left: 0;
         padding-right: 0;
         width: 100%;
         margin: 0 auto;
         font-size: 0.5em;
+        background: rgb(29, 29, 29);
     }
-    .corResponsive{
+    .container1{/*----------------Page Index-------------*/
+        width: 100%;
+        background-image: url('/PICS/BckG_GraySmoke.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .titulaireFol{/*-------------Page Index--------------------*/
+        width: 100%;
+        background-image:url('/PICS/CouleurSympa.jpg');        
+
+    }
+    .Reversive{/*-------------Page Index--------------------*/
+        width: 100%;
+        display: flex;
+        flex-direction:column-reverse ;
+        padding-top: ;
+    }
+    .conAside{
+        font-size: 0.8em !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;    
+    }
+    .conAside img{/*-------------Page Index--------------------*/
+        width: 40vw;
+        margin: 2% auto;
+    }
+    .PoliceIndexTt{/*-------------Page Index--------------------*/
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .corResponsive{/*---------------Page Expériences----------------*/
         margin: 1% 0%;
     }
     .MedianeIetC2{       /*-------------page Expériences----------*/
@@ -422,7 +487,7 @@ address{
         margin-top: 0;
         padding: 0 0;
     }
-    .icon1{
+    .icon1{/*---------------Page Expériences----------------*/
         width:10px;
     }
     .MedianeSKIetC{    /* page Expériences ------ */
@@ -430,21 +495,19 @@ address{
         margin: 0 0;
         padding: 0 0;  
     }
-    .TexteMed2{
+    .TexteMed2{/*---------------Page Expériences----------------*/
         font-size: 8px !important;
     }
-    .TexteMed{
-        height: fit-content;
+    .TexteMed{/*---------------Page Index----------------*/
         margin: 1% 0%;
     }
-    .titulaireFol2{
+    .titulaireFol2{/*----------Pages Exp & Contact-------------*/
         display: block;
-        width: 70%;
+        width: 100%;
         font-size: 0.9em;
         margin: 0% auto;
-        background: rgb(57, 57, 57);
     }
-    .container1_IC{
+    .container1_IC{/*----------Page Exp & Contact *** Aside container*/
         display: block;
         margin: 2% 0%;
         width: 100%;
@@ -452,7 +515,7 @@ address{
         height: fit-content;        
     }
 
-    .TexteMed-IetC{
+    .TexteMed-IetC{/*---------------Page Expériences----------------*/
         width: 7%;
     }
     hr{
@@ -460,32 +523,32 @@ address{
         padding: 0;
         height: 1px !important;
     }
-    .CorrectionP {
+    .CorrectionP {/*---------------Page Expériences----------------*/
         margin-top: 0.5%;
         height: 60vh;
         margin-bottom: 0;
         padding: 0;
     }
-    .container1_Cont{
+    .container1_Cont{/*---------------Page Contact----------------*/
         display: block;
         width: 100%;
         /*margin: 2 2 2 2;*/
         height: fit-content;
         
     }
-    .icon1{
+    .icon1{/*---------------Page Expériences----------------*/
         width: 18px;
         height: 18px;
     }
-    .TitreTexte{
-        font-size: 1em !important;
+    .TitreTexte{/*---------------Toutes les pages----------------*/
+        font-size: 1.6em !important;
         text-decoration: none;
     }
-    .TitreTexte2, .TitreTexte3{
+    .TitreTexte2, .TitreTexte3{/*---------------Toutes les page-s---------------*/
         font-size: 0.7em !important;
         padding-bottom: 1%;
     }
-    .TitreH_IetC{
+    .TitreH_IetC{/*---------------Les pages Exp & Contact----------------*/
         height:8vh;
         text-align: center;
         justify-self: center;
@@ -493,7 +556,7 @@ address{
         width: 100%;
         margin: 0 auto;
     }
-    .TexteMed-Cont, .TexteMed-Cont1{
+    .TexteMed-Cont, .TexteMed-Cont1{/*---------------Page Contact----------------*/
         width:100%;
         display: flex;
         flex-wrap: wrap;
@@ -503,7 +566,7 @@ address{
         /*justify-content: center;*/
         /*font-size: 0.8em;*/
     }
-    .TexteMed-Cont img{
+    .TexteMed-Cont img{/*---------------Page Contact----------------*/
         Width: 90%;
         /*height: 15vh;*/
         padding-top: 0.5vh;
@@ -511,7 +574,7 @@ address{
         padding: 0 5%;
 
     }
-    .texteMed1{
+    .texteMed1{/*-------------------Toutes les pages--------------------*/
         font-size: 0.6rem;
         padding-top: 1%;
         padding-bottom: 2%;
@@ -526,13 +589,13 @@ address{
         margin: 0 0;
         font-size: 0.9em;
     }
-    .ElementsCont img{
+    .ElementsCont img{/*-------------------Page Contact-------------------*/
         width: 3vw;
         height: 2vh;
         padding: 1% 0%;
         margin: 0 2%;
     }
-    .ElementsCont{
+    .ElementsCont{/*-------------------Page Contact-------------------*/
         display: flex;
         flex-wrap: nowrap;
         height: 10vh;
@@ -541,7 +604,7 @@ address{
         padding: 0 0;
         width: 100%;
     }
-    address{
+    address{/*-------------------Page Contact-------------------*/
         width: 100%;
         padding: 0% 2%;
         margin: 0 0;
@@ -550,13 +613,13 @@ address{
    /* .texteMed1 b{
         width: 100%;
     }*/
-    .texteMed1 p{
+    .texteMed1 p{/*-------------------Toutes les pages-------------------*/
         Margin: 0% 1%;
         width:100%;
         /*font-size: 0.8em;*/
         padding: 0 1;
     }
-    .links{
+    .links{/*-------------------Page Contact-------------------*/
         display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -573,7 +636,7 @@ address{
         object-fit:contain;
         flex-grow: 1;
     }*/
-    #centrage{
+    #centrage{/*-------------------Page Contact-------------------*/
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -581,30 +644,105 @@ address{
         /*width: 0vw;*/
         /*margin: 0 auto;*/
     }
-    /*#centrage img{
-        margin: 0% 0%;
-        width: 5vw;
-        object-fit:contain;
-        flex-grow: 1;
+    .Mediane2-3-2{/*---------------------Page index------------*/
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
         padding: 0;
-    }*/
-    
+    }
+    .ZonePic4{
+        width: 88%;
+    display: flex;
+    padding: 1% 1%;
+    height: 46vh;
+    background: rgb(85, 74, 74);
+    }
+    figcaption{
+        font-size: 1.8em;
+    }
+    .SkillsPic1{/*---------------------Page index------------*/
+        width: 95%;
+        object-fit: cover;
+        border: ridge white 3px;
+        border-radius: 10%;
+    }
+    .SkillsPic21{/*---------------------Page index------------*/
+        width: 100%;
+        height: auto;
+        /*object-fit: scale-down;*/
+        justify-content: scale-domwn;
+        margin: 2% 0%   ;
+    }
+    #Office365pic{
+        width: 100%;
+    }
 }
 
 @media screen and (min-device-width:401px) and (max-device-width:570px){
-        .container, .MedianeIetC{
+
+        .container, .MedianeIetC{/*------------Toutes pages // Pages Exp & Contact--------*/
             background-image: url('/PICS/BckG_GraySmoke.jpg');
             display: block;
             margin: 0% auto;
             width: 90%;
         }
-        .container1_IC{
+        .container1{/*----------------Page Index-------------*/
+            width: 100%;
+        }
+        .CDAmedian{/*----------------Page Index-------------*/
+            font-size: 1.1em;
+        }
+        .InfosPerso{/*----------------Page Index-------------*/
+            font-size: 0.6em;
+        }
+        .titulaireFol{/*-------------Page Index--------------------*/
+            width: 100%;
+            background-image:url('/PICS/CouleurSympa.jpg');
+            
+
+        }
+        .Reversive{/*-------------Page Index--------------------*/
+            width: 100%;
+            display: flex;
+            flex-direction:column-reverse ;
+            padding-top: ;
+        }
+        .conAside img{/*-------------Page Index--------------------*/
+            width: 40vw;
+            padding: 2% 2%;
+        }
+        .container1_IC{/*----------Page Exp & Contact *** Aside container*/
             display: block;
             margin: 1% 0%;
             width: 100%;
             /*margin: 2 2 2 2;*/
             height: fit-content;
             font-size: 0.9em;        
+        }
+        .Mediane{/*-------------Page Index--------------------*/
+            font-size: 0.73em;
+            margin-bottom:4% ;
+        }
+        .Mediane2-3-2 {/*-------------Page Index--------------------*/
+            
+            display: Flex;
+            flex-wrap: wrap;
+            width: 90%;
+            padding-top: 1%;
+            padding-left: 0%;
+            margin: 0% auto;
+            justify-content: space-between;
+            position: relative;
+            padding-bottom: 2%;
+            background-image: url('/PICS/CouleurSympa.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .TexteMed2-1 img{ /*------Page Index--\\--definition de mon image*/
+            width: 80%;
+            /*height: 75%;*/
+            object-fit: scale-down;
+            left:15%;       
         }
         .MedianeIetC2{/*-------------de la page Expériences----------*/
             display: flex;
@@ -652,7 +790,7 @@ address{
             align-items: center;
             justify-content: space-around;    
         }
-        .container1_Cont{
+        .container1_Cont{/*-----------Page Contact--------------*/
             display: block;    
             width: 100%;
             /*margin: 2 2 2 2;*/
@@ -660,7 +798,7 @@ address{
         }
         .TitreH_IetC{
             text-align: center;
-            font-size: 0.8em !important;
+            font-size: 0.75em !important;
             height: 12vh;
         }
         .TitreTexte2 b{
@@ -704,6 +842,9 @@ address{
         .texteMed1 li, ul{/*----------Page Expériences uniquement---------*/
             font-size: 0.9em;
             width: 100%;
+        }
+        .PoliceStyle{/*---------------Page Expériences------------------*/
+            font-size: 0.80em !important;
         }
         hr{
             margin:0 0 !important;
@@ -756,12 +897,38 @@ address{
         #centrage img{/*------------page Contact  --------*/
             width: 6vw;            
             object-fit: contain;
-        }       
+        }
+        .ZonePic4{/*---------------------Page index------------*/
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background: none;
+        }
+        figcaption{/*---------------------Page index------------*/
+            font-size: 1em;
+        }    
+        .SkillsPic1{/*---------------------Page index------------*/
+            width: 90%;
+        object-fit: cover;
+        border: ridge white 3px;
+        border-radius: 10%;
+        }
+        .SkillsPic21{/*---------------------Page index------------*/
+            width: 80%;
+            height: auto;
+            /*object-fit: scale-down;*/
+        }
+        #Office365pic{/*---------------------Page index------------*/
+            width: 80%;
+            height: auto;
+        }
+             
     
 }
 
 /*-----Pour tablette portrait et paysage-------------------*/
 @media screen and (min-device-width:571px) and (max-device-width:1420px){
+    
     .container{/*---------------Toutes les pages----------*/
         background-image: url('../PICS/BckG_GraySmoke.jpg');
         background-repeat: no-repeat;
@@ -770,6 +937,9 @@ address{
         padding-left: 0;
         padding-right: 0;
         width: 100% !important;
+        height: fit-content;
+    }
+    .container1{/*----------Page Index ------------------ */
         height: fit-content;
     }
     .MedianeIetC{/*------------Page Contact----------------*/
@@ -791,7 +961,7 @@ address{
     hr{
         margin:0 !important;
     }
-    .titulaireFol2{/*---------------Toutes les pages----------*/
+    .titulaireFol2{/*---------------Pages Exp & Contact----------*/
         display: flex;
         align-items: center;
         justify-content: center;
@@ -804,7 +974,7 @@ address{
         background-size: cover;
     }
     .TitreTexte{
-        /*font-size: 0.5em;*/
+        font-size: 0.9em;
         text-decoration: none;
         text-align: center;
         padding: 0;
@@ -869,8 +1039,19 @@ address{
     .texteMed1 p, li{/*-----Attention page Expériences concernée----*/
         font-size: 0.7em;
     }
+    .Mediane2-3{/*-----------Page Index------------------*/
+        padding-left: 10%;
+    }
     .TexteMed2-3_1{/*----------Page Index--------------*/
-        width: 40%;
+        width: 33%;
+        font-size: 0.9em;
+        margin: 0% 0%;
+    }
+    .Equil{/*-----------Page Index------------------*/
+        margin-left: 0%;
+    }
+    .PoliceStyle{/*---------------Page Expériences------------------*/
+        font-size: 0.82em !important;
     }
     .MedianeSKIetC{/*--------Page Expériences-------*/
         width: 160%;
@@ -888,29 +1069,56 @@ address{
     .icon1{/*--------Page Expériences-------*/
         width: 28px;
         height: 24px;
-    }    
-   
+    }
     .texteMed3{/*-----------Page Index--------*/
-            font-size: 0.7em;
+            font-size: 0.75em;
+    }
+    .Mediane2-3-2{/*-----------Page Index--------*/
+        width: 90%;
+        margin: 2% auto;
+        padding: 0;
+        height: auto;
+        background-image: url('/PICS/CouleurSympa.jpg');
+        background-repeat: no-repeat;
+        
+
     }
     .ZonePic4{/*---------------------Page index------------*/
-        width: 35%;
+        width:100%;
         display: flex;
         flex-wrap: wrap;
+        min-height:85vh ;
+        background: none;
+        margin: 0;
+        padding: 0;
+
+
+    
     }
     .SkillsPic1{/*---------------------Page index------------*/
-        width: 90%;
+        width: 110%;
         object-fit: cover;
+        /*height: auto;*/
     }
     .SkillsPic21{/*---------------------Page index------------*/
-        width: 80%;
-        object-fit: scale-down;
+        max-width: 85%;
+        object-fit: cover;
+        height: auto;
+        margin: 1% 2%;
+    }
+    #Office365pic{/*---------------------Page index------------*/
+        max-width: 85%;
+        height:auto;
+    }
+    .TexteMed2-0 {
+        height: fit-content;
+        position: relative;
     }
     .TexteMed2-1 img{ /*------Page Index--\\--definition de mon image*/
-        width: 80%;
+        width: 65%;
         /*height: 75%;*/
         object-fit: scale-down;
-        left:35%
+        left:30%;
     
     } 
     .TexteMed-IetC {/*--------Page Contact-------*/
@@ -974,7 +1182,14 @@ address{
         width: 7vw;
         padding: 0 0%;
         margin: 0;
-    } 
+    }
+    .FormTexte{/*---------------------Page index------------*/
+        font-size: 0.9em !important;
+    }
+    .MiseEnForme{
+        min-height: 25vh;*/
+        font-size: 0.9em;
+    }
 }    
 
     

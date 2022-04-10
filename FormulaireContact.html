@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactezMoi</title>
+    <link rel="stylesheet" href="CSS/Style2.css">
+</head>
+<body>
+    <section class="containerGB">
+        <aside class="titulaireFol2">
+                <div class="conAside">    <!-- Nom de ma div dans Aside où je vais mettre la tof et les liens-->
+                    <!--<img src="pics/kenshiro.jfif" alt="Kenshiro" width="82px" height="96px">-->
+                <div class="TexteLiens">
+                    <a href="Contacts.html" target=_Blank> BACK / RETOUR
+                    </a>    
+                    </div>
+                    
+            </div>
+        </aside>
+        <Section>    
+            <div> <!--Nom de mon container central-->        
+                <header class="TitreH"> <!--Class de mon header-->
+                    <h2 class="TitreH-Texte">
+                     Merci de remplir ce Formulaire de contact
+                    </h2>
+                </header>
+            </div>  
+            <section class="Mediane">
+
+                <form action="" method="post">
+                    <div class="ElementsCont">
+                        <label  for="nom" >NOM (3 à 10 caractères):</label>
+                        <input type="text" id="nom" placeholder="Entrez votre nom" required minlength="3" maxlength="10">                        
+                    </div>
+                    <br>
+                    <div class="ElementsCont">
+                        <label  for="nom" >Prénom:</label>
+                        <input type="text" id="nom" placeholder="Entrez votre prénom" required>
+                    </div>
+                    <br>
+                    <div class="ElementsCont">
+                            <label for="email" ><span>Email:&nbsp;</span></label>
+                        <input type="email" id="email" placeholder="Entrez votre email" required>
+                    </div>
+                    <br>
+                    <div class="ElementsCont">
+                    <label for="number" >Téléphone: </label>
+                    <input type="tel" id="tel" placeholder="Entrez votre numéro" minlength="10" required>
+                    </div>
+                    <br>
+                    <div class="ElementsCont">
+                        <label for="date">Saisir la date</label>
+                        <input type="date" id="date">
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="commentaires" id="message" placeholder="Message" cols="45" rows="7" >
+                        </textarea>
+        
+                    </div>
+                    <br>
+                    <input type="reset" value="Annuler">
+                    <a href="https://www.afpa.fr/"><input type="submit" value="Envoyer"></a>
+                </form>
+
+            </section>
+    </section>
+</body>
+</html>

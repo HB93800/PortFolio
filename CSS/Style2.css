@@ -1,0 +1,131 @@
+.containerGB{
+    width: 50%;
+    margin: 2% auto;
+    background: rgb(98, 93, 93);
+    display: flex;
+}
+.titulaireFol2{
+    background: blue;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 2% 0%;
+    text-align: center;
+    
+}
+.TexteLiens a{
+    color: white;
+    font-size: 2em;
+    font-family: fantasy;
+    margin: 12% 0%;
+}
+.TitreH{
+    padding-left: 2%;
+    width: 100%;
+
+}
+.TitreH-Texte{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}  
+.ElementsCont label{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.Mediane{
+    margin: 2% 2%;
+    text-decoration: none;
+}
+@media screen and (max-device-width:400px) {
+    .containerGB{
+        display: block;
+        width: 98%;
+        margin: 0% 0%;
+    }
+    .titulaireFol2{
+        width: 100%;
+        justify-content: center;
+    }
+    .TitreH{
+        padding-left: 2%;
+        width: 70%;
+    }
+    .TitreH-Texte{
+        font-size: 0.9em;
+    }
+    .ElementsCont{
+        width: 65%;
+    }
+    textarea{
+        resize: horizontal;
+        max-width: 70%;
+
+    }
+
+
+}
+
+@media screen and (min-device-width:401px)and (max-device-width:835px) {
+    .containerGB{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0% 0%;
+
+    }
+    .titulaireFol2{
+        width: 100%;
+        justify-content: center;
+        font-size: 0.8em;
+    }
+    .TitreH-Texte{
+        font-size: 0.9em;
+    }
+    .Mediane{
+        margin: 1% 1%;
+        text-decoration: none;
+    }
+    .ElementsCont{
+        font-size: 0.7em 
+    }
+    .ElementsCont input{
+       width: 27%;
+    }
+    textarea{
+        resize: horizontal;
+        max-width: 50%;
+        margin-left: 10%;
+
+    }
+}
+
+@media screen and (min-device-width:835px) and (max-device-width:960px) {
+    .containerGB{
+        width: 80%;
+        display: flex;
+        margin: 0% 0%;
+
+    }
+    .titulaireFol2{
+        width: 30%;
+        justify-content: center;
+    }
+    .Mediane{
+        margin: 1% 1%;
+        text-decoration: none;
+    }
+    .ElementsCont{
+        font-size: 0.7em 
+    }
+    .ElementsCont input{
+       width: 27%;
+    }
+    textarea{
+        resize: horizontal;
+        max-width: 70%;
+        margin-left: 10%;
+
+    }
+}
