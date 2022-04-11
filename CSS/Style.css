@@ -97,7 +97,7 @@ aside a{/*---------------Toutes les pages----------------*/
     justify-content: space-between;
     position:relative;
     padding-bottom: 2%;
-    background-image: url('/PICS/CouleurSympa.jpg');
+    background-image: url('/PICS/CouleurSympa.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -192,7 +192,7 @@ figcaption{
 .container1_IC{ /*----------Page Exp & Contact *** Aside container*/
     width: 100%;
     height: 190vh;
-    background-image: url('/PICS/BckG_GraySmoke.jpg');
+    background-image: url('/PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0% 0%;
@@ -205,7 +205,7 @@ figcaption{
     margin: 0% auto;
     /*padding-left: 5%;*/
     position: relative;
-    background-image: url('../PICS/BckG_GraySmoke.jpg');
+    background-image: url('../PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -304,7 +304,7 @@ figcaption{
 .container1_Cont{ /*----------Page Contact---//---Aside container--*/
     width: 70%;
     height:fit-content;
-    background-image: url('../PICS/BckG_GraySmoke.jpg');
+    background-image: url('../PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -321,7 +321,7 @@ figcaption{
     padding-left: 5%;
     margin: 0 0;
     position: relative;
-    background-image: url('../PICS/BckG_GraySmoke.jpg');
+    background-image: url('../PICS/BckG_GraySmoke.jpeg');
 }
 .texteMed1{/*-------------------Toutes les pages--------------------*/
     font-size: 0.75em;
@@ -445,14 +445,14 @@ address{/*-------------------Page Contact--------------------*/
     }
     .container1{/*----------------Page Index-------------*/
         width: 100%;
-        background-image: url('/PICS/BckG_GraySmoke.jpg');
+        background-image: url('/PICS/BckG_GraySmoke.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
         
     }
     .titulaireFol{/*-------------Page Index--------------------*/
         width: 100%;
-        background-image:url('/PICS/CouleurSympa.jpg');        
+        background-image:url('/PICS/CouleurSympa.jpeg');        
 
     }
     .Reversive{/*-------------Page Index--------------------*/
@@ -681,7 +681,7 @@ address{/*-------------------Page Contact--------------------*/
 @media screen and (min-device-width:401px) and (max-device-width:570px){
 
         .container, .MedianeIetC{/*------------Toutes pages // Pages Exp & Contact--------*/
-            background-image: url('/PICS/BckG_GraySmoke.jpg');
+            background-image: url('/PICS/BckG_GraySmoke.jpeg');
             display: block;
             margin: 0% auto;
             width: 90%;
@@ -697,7 +697,7 @@ address{/*-------------------Page Contact--------------------*/
         }
         .titulaireFol{/*-------------Page Index--------------------*/
             width: 100%;
-            background-image:url('/PICS/CouleurSympa.jpg');
+            background-image:url('/PICS/CouleurSympa.jpeg');
             
 
         }
@@ -734,7 +734,7 @@ address{/*-------------------Page Contact--------------------*/
             justify-content: space-between;
             position: relative;
             padding-bottom: 2%;
-            background-image: url('/PICS/CouleurSympa.jpg');
+            background-image: url('/PICS/CouleurSympa.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -930,7 +930,7 @@ address{/*-------------------Page Contact--------------------*/
 @media screen and (min-device-width:571px) and (max-device-width:1420px){
     
     .container{/*---------------Toutes les pages----------*/
-        background-image: url('../PICS/BckG_GraySmoke.jpg');
+        background-image: url('../PICS/BckG_GraySmoke.jepg');
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -1078,7 +1078,7 @@ address{/*-------------------Page Contact--------------------*/
         margin: 2% auto;
         padding: 0;
         height: auto;
-        background-image: url('/PICS/CouleurSympa.jpg');
+        background-image: url('/PICS/CouleurSympa.jpeg');
         background-repeat: no-repeat;
         
 
