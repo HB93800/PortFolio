@@ -44,7 +44,7 @@ aside a{/*---------------Toutes les pages----------------*/
     display: block;
     width: 100%;
     height: 12vh;
-    background-image: url("../PICS/DEV-2.jfif");
+    background-image: url('/PICS/DEV-2.jfif');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -205,7 +205,7 @@ figcaption{
     margin: 0% auto;
     /*padding-left: 5%;*/
     position: relative;
-    background-image: url('../PICS/BckG_GraySmoke.jpeg');
+    background-image: url('/PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -214,7 +214,7 @@ figcaption{
     width: 100%;
     /*height: 25%;*/
     margin-left: 5%;
-    background-image: url("../PICS/DEV-2.jfif");
+    background-image: url('/PICS/DEV-2.jfif');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -304,12 +304,12 @@ figcaption{
 .container1_Cont{ /*----------Page Contact---//---Aside container--*/
     width: 70%;
     height:fit-content;
-    background-image: url('../PICS/BckG_GraySmoke.jpeg');
+    background-image: url('/PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .titulaireFol2{
-    background-image: url('../PICS/BckG_Road-Trees.jpg');
+    background-image: url('/PICS/BckG_Road-Trees.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -321,7 +321,7 @@ figcaption{
     padding-left: 5%;
     margin: 0 0;
     position: relative;
-    background-image: url('../PICS/BckG_GraySmoke.jpeg');
+    background-image: url('/PICS/BckG_GraySmoke.jpeg');
 }
 .texteMed1{/*-------------------Toutes les pages--------------------*/
     font-size: 0.75em;
@@ -930,7 +930,7 @@ address{/*-------------------Page Contact--------------------*/
 @media screen and (min-device-width:571px) and (max-device-width:1420px){
     
     .container{/*---------------Toutes les pages----------*/
-        background-image: url('../PICS/BckG_GraySmoke.jepg');
+        background-image: url('/PICS/BckG_GraySmoke.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -970,7 +970,7 @@ address{/*-------------------Page Contact--------------------*/
         margin: 0 auto;
         width: 30vw;
         /*height: 55vh;*/
-        background-image: url('../PICS/BckG_Road-Trees.jpg');
+        background-image: url('/PICS/BckG_Road-Trees.jpg');
         background-size: cover;
     }
     .TitreTexte{
