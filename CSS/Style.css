@@ -192,7 +192,7 @@ figcaption{
 .container1_IC{ /*----------Page Exp & Contact *** Aside container*/
     width: 100%;
     height: 190vh;
-    background-image: url('/PICS/BckG_GraySmoke.jpeg');
+    background-image: url('../PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0% 0%;
