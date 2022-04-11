@@ -2,9 +2,9 @@
     display: flex;
     width: 80% !important;
     margin: 0 auto;
-    /*background-image: url('/PICS/BckG_GraySmoke.jpg');
+    background-image: url('/PICS/BckG_GraySmoke.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
     height: fit-content;
 }
 .container1{/*----------Page Index ---//--- Aside container*/
