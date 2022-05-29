@@ -17,7 +17,7 @@
 aside{/*---------------Toutes les pages----------------*/
     display: flex;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: rgb(148, 140, 128);
+    background: rgb(32 44 72);
     width: 30%;
     align-items: center;
     justify-content: center;
@@ -70,34 +70,30 @@ aside a{/*---------------Toutes les pages----------------*/
     flex-wrap: nowrap;
     width: 77%;
     padding-top: 5%;
-    padding-left: 10%;
+    padding-left: 2%;
     justify-content: space-between;
-    position:relative;
-    
+    position: relative;
 }
 
 .Mediane2-3{/*------------page Index----------------*/
     display: Flex;
     flex-wrap: nowrap;
-    width: 96%;
+    width: 100%;
     padding-top: 2%;
-    padding-left: 5%;
-    margin: 0 0%;
-    /*justify-content: space-between;*/
-    position:relative;
+    position: relative;
     padding-bottom: 2%;
 }
 .Mediane2-3-2{/*------------page Index----------------*/
     display: Flex;
     flex-wrap: nowrap;
-    width: 75%;
+    width: 100%;
     padding-top: 1%;
-    padding-left: 5%;
-    margin: 0% 5%;
+    padding-left: 1%;
+    margin: 0% 1%;
     justify-content: space-between;
-    position:relative;
+    position: relative;
     padding-bottom: 2%;
-    background-image: url('/PICS/CouleurSympa.jpg');
+    background-image: url(/PICS/CouleurSympa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -114,18 +110,18 @@ aside a{/*---------------Toutes les pages----------------*/
     padding: 1% 1%;
 }
 .Equil{/*---------Page Index------------------*/
-    margin-left:15% !important;
+    margin-left:24% !important;
     
 
 }
 .TexteMed2-3_1{/*------------page Index----------------*/
     position: relative;
-    width: 30%;
+    width: 38%;
     display: flex;
     background: #888683;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0% 5%;
+    /*margin: 0% auto;*/
     height: 4vh;
     color: white;
 }
@@ -186,7 +182,24 @@ figcaption{
 }
 #Office365pic{/*------------page Index----------------*/
     width: 80%;
-    height: auto    ;
+    height: auto;
+}
+
+.AccBG1{
+    background-image: url('/PICS/BckG_GraySmoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*display: flex;
+    justify-content: space-between;*/
+    
+}
+.AccOrg1, .AccOrg2{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1em;
+
 }
 /*-------------------------PAGE HTML-EXPERIENCES---------------------------------*/
 .container1_IC{ /*----------Page Exp & Contact *** Aside container*/
@@ -202,12 +215,13 @@ figcaption{
     flex-wrap: nowrap;
     width: 95%;
     padding-top: 0%;
-    margin: 0% auto;
+    margin: 2% auto;
     /*padding-left: 5%;*/
     position: relative;
     background-image: url('../PICS/BckG_GraySmoke.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 1.5em;
 }
 .TitreH_IetC{/*-----------------Pages Exp & Contact------------*/
     display: block;
@@ -240,7 +254,7 @@ figcaption{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 1% 0%;
-    height: 15vh;
+    height: 25vh;
 
 }
 .corResponsive{/*---------------Page Expériences----------------*/
@@ -265,22 +279,20 @@ figcaption{
 }
 .CorrectionP{/*---------------Page Expériences----------------*/
     margin-top: -1%;
-    height: 45vh;
+    height: 50vh;
 
 }
 .MedianeSKIetC{/*---------------Page Expériences----------------*/
     display: Flex;
     flex-wrap: wrap;
-    width: 182%;
-    padding-top: 0%;
-    padding-left: 0;
     position: relative;
+    margin: 0% 1%;
   
 }
 .skillspart{/*---------------Page Expériences----------------*/
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 90%;
     background: #888683;
     opacity: 0.6;
     margin: 3% 0%;
@@ -429,8 +441,17 @@ address{/*-------------------Page Contact--------------------*/
     font-family: fantasy;
 }
 
-
-
+.larg{
+    width: 57vw !important;
+   
+}
+.HBcolor{
+    background:rgb(136 71 108) !important;
+    color: whitesmoke !important;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100% !important;
+}
 /*-----Pour smartphone---------------------------------------*/
 @media screen and (max-device-width:400px){
 
@@ -730,7 +751,7 @@ address{/*-------------------Page Contact--------------------*/
             width: 90%;
             padding-top: 1%;
             padding-left: 0%;
-            margin: 0% auto;
+            /*margin: 0% auto;*/
             justify-content: space-between;
             position: relative;
             padding-bottom: 2%;
@@ -1039,13 +1060,13 @@ address{/*-------------------Page Contact--------------------*/
     .texteMed1 p, li{/*-----Attention page Expériences concernée----*/
         font-size: 0.7em;
     }
-    .Mediane2-3{/*-----------Page Index------------------*/
-        padding-left: 10%;
-    }
+    /*.Mediane2-3{/*-----------Page Index------------------*/
+    /*    padding-left: 10%;
+    }*/
     .TexteMed2-3_1{/*----------Page Index--------------*/
-        width: 33%;
-        font-size: 0.9em;
-        margin: 0% 0%;
+        width: 38%;
+        font-size: 1em;
+        /*margin: 0% 0%;*/
     }
     .Equil{/*-----------Page Index------------------*/
         margin-left: 0%;
@@ -1059,7 +1080,8 @@ address{/*-------------------Page Contact--------------------*/
     .skillspart {/*--------Page Expériences-------*/
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 87%;
+        height: 40vh;
         background: #888683;
         opacity: 0.6;
         margin: 1% 0%;
@@ -1187,7 +1209,7 @@ address{/*-------------------Page Contact--------------------*/
         font-size: 0.9em !important;
     }
     .MiseEnForme{
-        min-height: 25vh;*/
+        min-height: 25vh;
         font-size: 0.9em;
     }
 }    

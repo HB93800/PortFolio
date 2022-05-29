@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <title>PortfolioHB</title>
+    
+    <!-- Bootstrap lnk-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!--CSS Lnk-->
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
 <body> 
-    <section class="container"> <!-- Nom de container Body-->  
-        <aside class="titulaireFol">
+    <section class="container"> <!-- Nom de container Body-->
+            <!-- DEBUT Partie latérale -->
+        <aside class="titulaireFol"> 
             <div class="conAside Reversive">    <!-- Nom de ma div dans Aside où je vais mettre la tof et les liens-->
                     <img src="pics/MyResize.JPG" alt="Kenshiro" width="82px" height="96px">
                 <div class="TexteLiens">
@@ -22,9 +30,12 @@
                     <a href="Experiences.html" target=_Blank>Expériences</a> 
                 </div>
             </div>
-        </aside>
+        </aside>  
+        <!-- FIN Partie latérale -->
+
+        <!--  ---------------- ----- PARTIE MEDIANE --  ---------------- -->
         <section class="container1"> <!--Nom de mon container central-->
-        
+                <!-- --------- MON HEADER---------  -->
                 <header class="TitreH PoliceIndexTt"> <!--Class de mon header // et Class pour police responsive-->
                     <h2 class="TitreTexte">
                      Hassan BENAMAR
@@ -34,8 +45,10 @@
                     <a class="TitreTexte3">Concepteur Développeur d'Applications</a>
                     </h2>
                 </header>
+                <!-- --------- FIN DE MON HEADER---------  -->
+
             <Section class="Mediane"> <!-- Section mediane avec texte Titulaire + CDA et photos-->
-                <div class="TexteMed">
+                <!--<div class="TexteMed">
                     <span class="texteMed1 FormTexte">
                     <b>21 ans</b> dans l’automobile chez <b><u>RENAULT</u></b>  après l'obtention d’un <b><u>BTS électronique.</u></b> 
                     <p>
@@ -46,7 +59,7 @@
                 </div>
                 <div class="TexteMed MiseEnForme">
                     <div class="TexteMed2-0">
-                        <span class="texteMed3 CDAmedian"> <!--CDAmedian pour le responsive-->
+                        <span class="texteMed3 CDAmedian"> 
                             <b>CDA Concepteur Développeur d’Applications.</b>
                             <p>
                                  En formation depuis le 16 Mars 2022 session:
@@ -62,9 +75,9 @@
                 </div>
             </section>
         <hr>
-            <Section class="Mediane2-3"> <!-- Section mediane avec texte Titulaire + CDA et photos-->
+            <Section class="Mediane2-3">
                 <div class="TexteMed2-3_1">
-                    <span class="texteMed3 InfosPerso"> <!--InfosPerso pour le responsive-->
+                    <span class="texteMed3 InfosPerso"> 
                         <b>Date de Naissance:</b> 16 Juin 1978
                     </span>
 
@@ -105,7 +118,263 @@
                         <img src="PICS/Office365.jfif" alt="" id="Office365pic">
                     </div>
                 
-            </Section>
+            </Section>-->
+                <section class="median">
+                    <!-- **** DEBUT DE MES ACCORDEONS ! **** -->
+                    <div class="accordion larg" id="accordionPanelsStayOpenExample">
+                        <!-- START ACCORDEON 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button HBcolor" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Info & Compétences
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body AccBG1 AccOrg1">
+                                    <div class="TexteMed"> <!-- Texte Bloc G-->
+                                        <span class="texteMed1 FormTexte">
+                                        <b>21 ans</b> dans l’automobile chez <b><u>RENAULT</u></b>  après l'obtention d’un <b><u>BTS électronique.</u></b> 
+                                        <p>
+                                            14 ans comme <b><u>Diagnosticien</u></b> pour le BEE (Presta) puis <b><u>pour / et</u></b> de la DPCVU (Direction Prestation Client Véhicule Utilitaire) à VSF 78.
+                                        Puis 8 ans entant qu' <b><u>Evaluateur qualité AVES</u></b> puis <b><u>Formateur</u></b> de ces mêmes évaluateurs à Renault TCR à Guyancourt 78 et ce jusqu’à maintenant....
+                                        </p>
+                                        </span>
+                                    </div>
+                                    <div class="TexteMed MiseEnForme"> <!-- Texte Bloc D-->
+                                        <div class="TexteMed2-0">
+                                            <span class="texteMed3 CDAmedian"> <!--CDAmedian pour le responsive-->
+                                                <b>CDA Concepteur Développeur d’Applications.</b>
+                                                <p>
+                                                    En formation depuis le 16 Mars 2022 session:
+                                                </p>
+                                                <p>
+                                                <b>CDA  21260-21324</b>
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <div class="TexteMed2-1">
+                                        <img src="pics/DEV.jfif" alt="photo-dev.jfif">                    
+                                        </div>
+                                    </div>
+                                    <Section class="Mediane2-3 AccOrg2"> <!-- Section mediane avec texte Titulaire + CDA et photos-->
+                                        <div class="TexteMed2-3_1">
+                                        <span class="texteMed3 InfosPerso"> <!--InfosPerso pour le responsive-->
+                                            <b>Date de Naissance:</b> 16 Juin 1978
+                                        </span>
+
+                                        </div>
+                                    <div class="TexteMed2-3_1 Equil">
+                                        <span class="texteMed3 InfosPerso">
+                                            <b>
+                                            Email:
+                                            </b>
+                                            hassanbenamar@sfr.fr
+                                    </div>
+                
+                                    <section class="Mediane2-3"> 
+                                        <div class="TexteMed2-3_1">
+                                            <span class="texteMed3 InfosPerso">
+                                                <b>Situation:</b> Marié, 3 enfants.
+                                            </span>
+                                        </div>
+                                        <div class="TexteMed2-3_1 Equil">
+                                            <span class="texteMed3 InfosPerso">
+                                                <b>Tél:</b>
+                                                +33 6 51 46 08 04
+                                            </span>
+                                        </div>      
+                                    </section>
+                                    <hr>
+                                    <Section class="Mediane2-3-2"> 
+                                    <div class="ZonePic4">
+                                        <figure>
+                                        <img src="PICS/Skills.jpg" alt="SkillsPicture" class="SkillsPic1">
+                                        <figcaption> Mes Acquis: </figcaption>
+                                        </figure>
+                                        <img src="PICS/Qualité.jfif" alt="Qualité.jfif" class="SkillsPic21">
+                                    </div>
+                                    <div class="ZonePic4">
+                                        <img src="PICS/Html-CSS.jfif" alt="HTML-CSS.jfif" class="SkillsPic21">
+                                        <img src="pics/excel_vba.jpg" alt="excel-vba.jpg" class="SkillsPic21">
+                                        <img src="PICS/Office365.jfif" alt="" id="Office365pic">
+                                    </div>
+                                
+                                    </Section>
+
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- STOP ACCORDEON 1 -->
+                        <!-- START ACCORDEON 2 -->    
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed HBcolor" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Expériences
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body AccBG1 AccOrg1">
+                                                            
+                                <section class="MedianeIetC2"> <!-- Section mediane avec texte Titulaire + CDA et photos-->
+                                    <div class="TexteMed-IetC corResponsive">
+                                        <img src="PICS/Ecole-icon.png" alt="icon-ecole.jpg" class="icon1">
+                                    </div>
+                                    <div class="TexteMedExp">
+                                        <span class="texteMed1 PoliceStyle">
+                                            
+                                                <p>
+                                                    <b><u>BTS Electronique option génie électronique:</u></b>
+                                                    <p>Obtenu en 2000 au lycée Louis Armand Paris 15e</p>
+                                                </p>
+                                                <p>
+                                                    <b><u>BAC STI option électronique:</u></b>
+                                                <p>Obtenu en 1998 au lycée Fernand Holweck Paris 14e</p>
+                                                </p>
+                                                <p>
+                                                    <b><u>BEP/CAP  Electronique :</u></b>
+                                                <p>Obtenu en 1996  au lycée Louis Armand Paris 15e</p>
+                                                </p>
+                                        </span>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section class="MedianeIetC2 "> <!-- Section mediane avec texte             Titulaire + CDA et photos-->
+                                    <div class="TexteMed-IetC CorrectionP">
+                                        <img src="PICS/work-icon.png" alt="icon-work.jpg" class="icon1">
+                                    </div>
+                                    <div class="TexteMedExp CorrectionP">
+                                        <span class="texteMed1 PoliceStyle">
+                                        
+                                            <p>
+                                                <b><u>RENAULT Technocentre:</u></b>
+                                                <p>
+                                                    <ul>
+                                                        <li>Mars 2022 - Août 2017 : <b>Formateur des Auditeurs Qualité AVES</b>.</li>
+                                                        <li>Août 2017 - Avril 2014 : <b>Evaluateur Qualité AVES</b>
+                                                            (méthode d’évaluation des véhicules sorties d’usine et prototypes du groupe RENAULT / NISSAN)</li>
+                                                    
+                                                    </ul>    
+                                                </p>
+                                            </p>    
+                                            <p>
+                                                <b><u>RENAULT Villiers Saint Frédéric:</u></b>
+                                                <p>
+                                                    <ul>
+                                                        <li>Avril 2014 - Juin 2008 :<b>Technicien diagnosticien et préparateur électronique </b>
+                                                            des véhicules prototypes de la direction de la prestation client.
+                                                        </li>
+                                                    
+                                                    </ul>    
+                                                </p>
+                                            </p> 
+                                            <p>
+                                                <b><u>RENAULT Villiers Saint Frédéric pour la socité ALTEN:</u></b>
+                                                <p>
+                                                    <ul>
+                                                        <li>Mai 2008 - Septembre 2006 : <b>Technicien diagnosticien et préparateur électronique</b>
+                                                            des véhicules prototypes de la direction de la prestation client.
+                                                        </li>
+                                                        <li>Septembre 2006 - Novembre 2000: <b>Technicien diagnosticien et préparateur électronique</b>
+                                                            pour le BE Electronique.
+                                                        </li>
+                                                    
+                                                    </ul>    
+                                                </p>
+                                            </p> 
+                                        </span>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section class="MedianeSKIetC"> <!-- Section mediane avec texte Titulaire + CDA et photos-->
+                                    <div class="TexteMed-IetC">
+                                        <img src="PICS/Skills-icon.png" alt="icon-skills.jpg" class="icon1">
+                                    </div>
+                                    <div class="skillspart">
+                                        <strong>HTML-CSS</strong>  
+                                
+                            
+                                        <!--<div class="TexteMed Morelarge">-->
+                                        <div class="progress TexteMed2"> <!--Ajout de la barre de progression de Bootstrap-->
+                                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%
+                                            </div>
+                                    
+                                        </div>
+                                        <strong>JAVASCRIPT</strong>  
+                                
+                            
+                                        <!--<div class="TexteMed Morelarge">-->
+                                        <div class="progress TexteMed2"> <!--Ajout de la barre de progression de Bootstrap-->
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%
+                                            </div>
+                                    
+                                        </div>
+                                        <strong>JQUERY</strong>  
+                                
+                            
+                                        <!--<div class="TexteMed Morelarge">-->
+                                        <div class="progress TexteMed2"> <!--Ajout de la barre de progression de Bootstrap-->
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </section>    
+                                <hr>
+                                <section class="MedianeSKIetC"> <!-- Section mediane avec texte Titulaire + CDA et photos-->
+                                    <div class="TexteMed-IetC">
+                                    <img src="PICS/Attitude-Icon.png" alt="icon-attitude.jpg" class="icon1">
+                                    </div>
+                                    <div class="skillspart Ligne">
+                                        <strong><u>Engagement</u></strong>  
+                                
+                            
+                                    <!--<div class="TexteMed Morelarge">-->
+                                    <div class="progress TexteMed2 "> <!--Ajout de la barre de progression de Bootstrap-->
+                                        <div class="progress-bar" id="Mycolor" role="progressbar" style="width: 98%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">98%
+                                        </div>
+                                    
+                                    </div>
+                                    <strong><u>Rigueur</u></strong>  
+                                
+                            
+                                    <!--<div class="TexteMed Morelarge">-->
+                                    <div class="progress TexteMed2"> <!--Ajout de la barre de progression de Bootstrap-->
+                                        <div class="progress-bar" id="Mycolor" role="progressbar" style="width: 100%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">100%
+                                        </div>
+                                    
+                                    </div>
+                                    <strong><u>Professionalisme</u></strong>  
+                                
+                            
+                                    <!--<div class="TexteMed Morelarge">-->
+                                    <div class="progress TexteMed2 Mycolor"> <!--Ajout de la barre de progression de Bootstrap-->
+                                        <div class="progress-bar"  id="Mycolor" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%
+                                        </div>
+                                            
+                                    </div>
+                                </section>  
+                            </div>
+                        </div>    
+                        </div>
+                        <!-- STOP ACCORDEON 2-->
+                        <div class="accordion-item"> <!--Accordéon 3-->
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed HBcolor" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Menu 3
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>                                                  
+                        </div>
+                        </div>
+                    </div>
+                    <!-- ****  FIN DES ACCORDEONS ! **** -->
+                </section>
+        </section>
+            
     </section>
 </body>
 </html>
