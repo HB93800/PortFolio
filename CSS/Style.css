@@ -304,6 +304,15 @@ figcaption{
     color: white;
     
 }
+.skillsLangPart{/*---------------Page Expériences----------------*/
+    width: 90%;
+    background: #888683;
+    opacity: 0.6;
+    margin: 3% 0%;
+    padding: 0% 0%;
+    color: white;
+    
+}
 .skillspart strong{/*---------------Page Expériences----------------*/
     padding-top: 4%;
     padding-left: 12%;
